@@ -1,0 +1,1460 @@
+{
+  "schema_version": 1,
+  "description": "Runnable paper experiment configurations and selected-run records.",
+  "smoke": {
+    "command": [
+      "uv",
+      "run",
+      "--frozen",
+      "python",
+      "scripts/reproduce_smoke.py",
+      "--output-dir",
+      "artifacts/smoke"
+    ],
+    "task": "coloring2graph",
+    "purpose": "CPU pipeline check, not a scientific benchmark"
+  },
+  "experiments": [
+    {
+      "id": "main-coloring10-relationformer",
+      "status": "candidate",
+      "paper_result": null,
+      "launcher": "src/train_cli.py",
+      "launch_command": [
+        "uv",
+        "run",
+        "--frozen",
+        "python",
+        "-m",
+        "any2graph_v2.train_cli",
+        "--config",
+        "experiments/paper/configs/main-coloring10-relationformer.yaml"
+      ],
+      "configs": [
+        "experiments/paper/configs/main-coloring10-relationformer.yaml"
+      ],
+      "source_csv": "experiments/paper/csv/table1_main_results.csv",
+      "source_row": 5,
+      "run_evidence": null
+    },
+    {
+      "id": "main-coloring20-relationformer",
+      "status": "candidate",
+      "paper_result": null,
+      "launcher": "src/train_cli.py",
+      "launch_command": [
+        "uv",
+        "run",
+        "--frozen",
+        "python",
+        "-m",
+        "any2graph_v2.train_cli",
+        "--config",
+        "experiments/paper/configs/main-coloring20-relationformer.yaml"
+      ],
+      "configs": [
+        "experiments/paper/configs/main-coloring20-relationformer.yaml"
+      ],
+      "source_csv": "experiments/paper/csv/table1_main_results.csv",
+      "source_row": 6,
+      "run_evidence": null
+    },
+    {
+      "id": "main-ms2scaffold-relationformer",
+      "status": "candidate",
+      "paper_result": null,
+      "launcher": "src/train_cli.py",
+      "launch_command": [
+        "uv",
+        "run",
+        "--frozen",
+        "python",
+        "-m",
+        "any2graph_v2.train_cli",
+        "--config",
+        "experiments/paper/configs/main-ms2scaffold-relationformer.yaml"
+      ],
+      "configs": [
+        "experiments/paper/configs/main-ms2scaffold-relationformer.yaml"
+      ],
+      "source_csv": "experiments/paper/csv/table1_main_results.csv",
+      "source_row": 7,
+      "run_evidence": null
+    },
+    {
+      "id": "main-fingerprint2mol-relationformer",
+      "status": "candidate",
+      "paper_result": null,
+      "launcher": "src/train_cli.py",
+      "launch_command": [
+        "uv",
+        "run",
+        "--frozen",
+        "python",
+        "-m",
+        "any2graph_v2.train_cli",
+        "--config",
+        "experiments/paper/configs/main-fingerprint2mol-relationformer.yaml"
+      ],
+      "configs": [
+        "experiments/paper/configs/main-fingerprint2mol-relationformer.yaml"
+      ],
+      "source_csv": "experiments/paper/csv/table1_main_results.csv",
+      "source_row": 8,
+      "run_evidence": null
+    },
+    {
+      "id": "main-coloring10-mirror",
+      "status": "candidate",
+      "paper_result": null,
+      "launcher": "src/train_cli.py",
+      "launch_command": [
+        "uv",
+        "run",
+        "--frozen",
+        "python",
+        "-m",
+        "any2graph_v2.train_cli",
+        "--config",
+        "experiments/paper/configs/main-coloring10-mirror.yaml"
+      ],
+      "configs": [
+        "experiments/paper/configs/main-coloring10-mirror.yaml"
+      ],
+      "source_csv": "experiments/paper/csv/table1_main_results.csv",
+      "source_row": 9,
+      "run_evidence": null
+    },
+    {
+      "id": "main-coloring20-mirror",
+      "status": "candidate",
+      "paper_result": null,
+      "launcher": "src/train_cli.py",
+      "launch_command": [
+        "uv",
+        "run",
+        "--frozen",
+        "python",
+        "-m",
+        "any2graph_v2.train_cli",
+        "--config",
+        "experiments/paper/configs/main-coloring20-mirror.yaml"
+      ],
+      "configs": [
+        "experiments/paper/configs/main-coloring20-mirror.yaml"
+      ],
+      "source_csv": "experiments/paper/csv/table1_main_results.csv",
+      "source_row": 10,
+      "run_evidence": null
+    },
+    {
+      "id": "main-ms2scaffold-mirror",
+      "status": "candidate",
+      "paper_result": null,
+      "launcher": "src/train_cli.py",
+      "launch_command": [
+        "uv",
+        "run",
+        "--frozen",
+        "python",
+        "-m",
+        "any2graph_v2.train_cli",
+        "--config",
+        "experiments/paper/configs/main-ms2scaffold-mirror.yaml"
+      ],
+      "configs": [
+        "experiments/paper/configs/main-ms2scaffold-mirror.yaml"
+      ],
+      "source_csv": "experiments/paper/csv/table1_main_results.csv",
+      "source_row": 11,
+      "run_evidence": null
+    },
+    {
+      "id": "main-fingerprint2mol-mirror",
+      "status": "candidate",
+      "paper_result": null,
+      "launcher": "src/train_cli.py",
+      "launch_command": [
+        "uv",
+        "run",
+        "--frozen",
+        "python",
+        "-m",
+        "any2graph_v2.train_cli",
+        "--config",
+        "experiments/paper/configs/main-fingerprint2mol-mirror.yaml"
+      ],
+      "configs": [
+        "experiments/paper/configs/main-fingerprint2mol-mirror.yaml"
+      ],
+      "source_csv": "experiments/paper/csv/table1_main_results.csv",
+      "source_row": 12,
+      "run_evidence": null
+    },
+    {
+      "id": "main-coloring10-matcher",
+      "status": "candidate",
+      "paper_result": null,
+      "launcher": "src/train_cli.py",
+      "launch_command": [
+        "uv",
+        "run",
+        "--frozen",
+        "python",
+        "-m",
+        "any2graph_v2.train_cli",
+        "--config",
+        "experiments/paper/configs/main-coloring10-matcher.yaml"
+      ],
+      "configs": [
+        "experiments/paper/configs/main-coloring10-matcher.yaml"
+      ],
+      "source_csv": "experiments/paper/csv/table1_main_results.csv",
+      "source_row": 13,
+      "run_evidence": null
+    },
+    {
+      "id": "main-coloring20-matcher",
+      "status": "candidate",
+      "paper_result": null,
+      "launcher": "src/train_cli.py",
+      "launch_command": [
+        "uv",
+        "run",
+        "--frozen",
+        "python",
+        "-m",
+        "any2graph_v2.train_cli",
+        "--config",
+        "experiments/paper/configs/main-coloring20-matcher.yaml"
+      ],
+      "configs": [
+        "experiments/paper/configs/main-coloring20-matcher.yaml"
+      ],
+      "source_csv": "experiments/paper/csv/table1_main_results.csv",
+      "source_row": 14,
+      "run_evidence": null
+    },
+    {
+      "id": "main-ms2scaffold-matcher",
+      "status": "candidate",
+      "paper_result": null,
+      "launcher": "src/train_cli.py",
+      "launch_command": [
+        "uv",
+        "run",
+        "--frozen",
+        "python",
+        "-m",
+        "any2graph_v2.train_cli",
+        "--config",
+        "experiments/paper/configs/main-ms2scaffold-matcher.yaml"
+      ],
+      "configs": [
+        "experiments/paper/configs/main-ms2scaffold-matcher.yaml"
+      ],
+      "source_csv": "experiments/paper/csv/table1_main_results.csv",
+      "source_row": 15,
+      "run_evidence": null
+    },
+    {
+      "id": "main-fingerprint2mol-matcher",
+      "status": "candidate",
+      "paper_result": null,
+      "launcher": "src/train_cli.py",
+      "launch_command": [
+        "uv",
+        "run",
+        "--frozen",
+        "python",
+        "-m",
+        "any2graph_v2.train_cli",
+        "--config",
+        "experiments/paper/configs/main-fingerprint2mol-matcher.yaml"
+      ],
+      "configs": [
+        "experiments/paper/configs/main-fingerprint2mol-matcher.yaml"
+      ],
+      "source_csv": "experiments/paper/csv/table1_main_results.csv",
+      "source_row": 16,
+      "run_evidence": null
+    },
+    {
+      "id": "loss-coloring20-original",
+      "status": "candidate",
+      "paper_result": null,
+      "launcher": "src/train_cli.py",
+      "launch_command": [
+        "uv",
+        "run",
+        "--frozen",
+        "python",
+        "-m",
+        "any2graph_v2.train_cli",
+        "--config",
+        "experiments/paper/configs/loss-coloring20-original.yaml"
+      ],
+      "configs": [
+        "experiments/paper/configs/loss-coloring20-original.yaml"
+      ],
+      "source_csv": "experiments/paper/csv/table2_loss_ablation.csv",
+      "source_row": 1,
+      "run_evidence": null
+    },
+    {
+      "id": "loss-ms2scaffold-original",
+      "status": "candidate",
+      "paper_result": null,
+      "launcher": "src/train_cli.py",
+      "launch_command": [
+        "uv",
+        "run",
+        "--frozen",
+        "python",
+        "-m",
+        "any2graph_v2.train_cli",
+        "--config",
+        "experiments/paper/configs/loss-ms2scaffold-original.yaml"
+      ],
+      "configs": [
+        "experiments/paper/configs/loss-ms2scaffold-original.yaml"
+      ],
+      "source_csv": "experiments/paper/csv/table2_loss_ablation.csv",
+      "source_row": 2,
+      "run_evidence": null
+    },
+    {
+      "id": "loss-fingerprint2mol-original",
+      "status": "candidate",
+      "paper_result": null,
+      "launcher": "src/train_cli.py",
+      "launch_command": [
+        "uv",
+        "run",
+        "--frozen",
+        "python",
+        "-m",
+        "any2graph_v2.train_cli",
+        "--config",
+        "experiments/paper/configs/loss-fingerprint2mol-original.yaml"
+      ],
+      "configs": [
+        "experiments/paper/configs/loss-fingerprint2mol-original.yaml"
+      ],
+      "source_csv": "experiments/paper/csv/table2_loss_ablation.csv",
+      "source_row": 3,
+      "run_evidence": null
+    },
+    {
+      "id": "loss-coloring20-alt_a",
+      "status": "candidate",
+      "paper_result": null,
+      "launcher": "src/train_cli.py",
+      "launch_command": [
+        "uv",
+        "run",
+        "--frozen",
+        "python",
+        "-m",
+        "any2graph_v2.train_cli",
+        "--config",
+        "experiments/paper/configs/loss-coloring20-alt_a.yaml"
+      ],
+      "configs": [
+        "experiments/paper/configs/loss-coloring20-alt_a.yaml"
+      ],
+      "source_csv": "experiments/paper/csv/table2_loss_ablation.csv",
+      "source_row": 4,
+      "run_evidence": null
+    },
+    {
+      "id": "loss-ms2scaffold-alt_a",
+      "status": "candidate",
+      "paper_result": null,
+      "launcher": "src/train_cli.py",
+      "launch_command": [
+        "uv",
+        "run",
+        "--frozen",
+        "python",
+        "-m",
+        "any2graph_v2.train_cli",
+        "--config",
+        "experiments/paper/configs/loss-ms2scaffold-alt_a.yaml"
+      ],
+      "configs": [
+        "experiments/paper/configs/loss-ms2scaffold-alt_a.yaml"
+      ],
+      "source_csv": "experiments/paper/csv/table2_loss_ablation.csv",
+      "source_row": 5,
+      "run_evidence": null
+    },
+    {
+      "id": "loss-fingerprint2mol-alt_a",
+      "status": "candidate",
+      "paper_result": null,
+      "launcher": "src/train_cli.py",
+      "launch_command": [
+        "uv",
+        "run",
+        "--frozen",
+        "python",
+        "-m",
+        "any2graph_v2.train_cli",
+        "--config",
+        "experiments/paper/configs/loss-fingerprint2mol-alt_a.yaml"
+      ],
+      "configs": [
+        "experiments/paper/configs/loss-fingerprint2mol-alt_a.yaml"
+      ],
+      "source_csv": "experiments/paper/csv/table2_loss_ablation.csv",
+      "source_row": 6,
+      "run_evidence": null
+    },
+    {
+      "id": "loss-coloring20-alt_b",
+      "status": "candidate",
+      "paper_result": null,
+      "launcher": "src/train_cli.py",
+      "launch_command": [
+        "uv",
+        "run",
+        "--frozen",
+        "python",
+        "-m",
+        "any2graph_v2.train_cli",
+        "--config",
+        "experiments/paper/configs/loss-coloring20-alt_b.yaml"
+      ],
+      "configs": [
+        "experiments/paper/configs/loss-coloring20-alt_b.yaml"
+      ],
+      "source_csv": "experiments/paper/csv/table2_loss_ablation.csv",
+      "source_row": 7,
+      "run_evidence": null
+    },
+    {
+      "id": "loss-ms2scaffold-alt_b",
+      "status": "candidate",
+      "paper_result": null,
+      "launcher": "src/train_cli.py",
+      "launch_command": [
+        "uv",
+        "run",
+        "--frozen",
+        "python",
+        "-m",
+        "any2graph_v2.train_cli",
+        "--config",
+        "experiments/paper/configs/loss-ms2scaffold-alt_b.yaml"
+      ],
+      "configs": [
+        "experiments/paper/configs/loss-ms2scaffold-alt_b.yaml"
+      ],
+      "source_csv": "experiments/paper/csv/table2_loss_ablation.csv",
+      "source_row": 8,
+      "run_evidence": null
+    },
+    {
+      "id": "loss-fingerprint2mol-alt_b",
+      "status": "candidate",
+      "paper_result": null,
+      "launcher": "src/train_cli.py",
+      "launch_command": [
+        "uv",
+        "run",
+        "--frozen",
+        "python",
+        "-m",
+        "any2graph_v2.train_cli",
+        "--config",
+        "experiments/paper/configs/loss-fingerprint2mol-alt_b.yaml"
+      ],
+      "configs": [
+        "experiments/paper/configs/loss-fingerprint2mol-alt_b.yaml"
+      ],
+      "source_csv": "experiments/paper/csv/table2_loss_ablation.csv",
+      "source_row": 9,
+      "run_evidence": null
+    },
+    {
+      "id": "loss-coloring20-alt_a_prime",
+      "status": "candidate",
+      "paper_result": null,
+      "launcher": "src/train_cli.py",
+      "launch_command": [
+        "uv",
+        "run",
+        "--frozen",
+        "python",
+        "-m",
+        "any2graph_v2.train_cli",
+        "--config",
+        "experiments/paper/configs/loss-coloring20-alt_a_prime.yaml"
+      ],
+      "configs": [
+        "experiments/paper/configs/loss-coloring20-alt_a_prime.yaml"
+      ],
+      "source_csv": "experiments/paper/csv/table2_loss_ablation.csv",
+      "source_row": 10,
+      "run_evidence": null
+    },
+    {
+      "id": "loss-ms2scaffold-alt_a_prime",
+      "status": "candidate",
+      "paper_result": null,
+      "launcher": "src/train_cli.py",
+      "launch_command": [
+        "uv",
+        "run",
+        "--frozen",
+        "python",
+        "-m",
+        "any2graph_v2.train_cli",
+        "--config",
+        "experiments/paper/configs/loss-ms2scaffold-alt_a_prime.yaml"
+      ],
+      "configs": [
+        "experiments/paper/configs/loss-ms2scaffold-alt_a_prime.yaml"
+      ],
+      "source_csv": "experiments/paper/csv/table2_loss_ablation.csv",
+      "source_row": 11,
+      "run_evidence": null
+    },
+    {
+      "id": "loss-fingerprint2mol-alt_a_prime",
+      "status": "candidate",
+      "paper_result": null,
+      "launcher": "src/train_cli.py",
+      "launch_command": [
+        "uv",
+        "run",
+        "--frozen",
+        "python",
+        "-m",
+        "any2graph_v2.train_cli",
+        "--config",
+        "experiments/paper/configs/loss-fingerprint2mol-alt_a_prime.yaml"
+      ],
+      "configs": [
+        "experiments/paper/configs/loss-fingerprint2mol-alt_a_prime.yaml"
+      ],
+      "source_csv": "experiments/paper/csv/table2_loss_ablation.csv",
+      "source_row": 12,
+      "run_evidence": null
+    },
+    {
+      "id": "loss-coloring20-alt_b_prime",
+      "status": "candidate",
+      "paper_result": null,
+      "launcher": "src/train_cli.py",
+      "launch_command": [
+        "uv",
+        "run",
+        "--frozen",
+        "python",
+        "-m",
+        "any2graph_v2.train_cli",
+        "--config",
+        "experiments/paper/configs/loss-coloring20-alt_b_prime.yaml"
+      ],
+      "configs": [
+        "experiments/paper/configs/loss-coloring20-alt_b_prime.yaml"
+      ],
+      "source_csv": "experiments/paper/csv/table2_loss_ablation.csv",
+      "source_row": 13,
+      "run_evidence": null
+    },
+    {
+      "id": "loss-ms2scaffold-alt_b_prime",
+      "status": "candidate",
+      "paper_result": null,
+      "launcher": "src/train_cli.py",
+      "launch_command": [
+        "uv",
+        "run",
+        "--frozen",
+        "python",
+        "-m",
+        "any2graph_v2.train_cli",
+        "--config",
+        "experiments/paper/configs/loss-ms2scaffold-alt_b_prime.yaml"
+      ],
+      "configs": [
+        "experiments/paper/configs/loss-ms2scaffold-alt_b_prime.yaml"
+      ],
+      "source_csv": "experiments/paper/csv/table2_loss_ablation.csv",
+      "source_row": 14,
+      "run_evidence": null
+    },
+    {
+      "id": "loss-fingerprint2mol-alt_b_prime",
+      "status": "candidate",
+      "paper_result": null,
+      "launcher": "src/train_cli.py",
+      "launch_command": [
+        "uv",
+        "run",
+        "--frozen",
+        "python",
+        "-m",
+        "any2graph_v2.train_cli",
+        "--config",
+        "experiments/paper/configs/loss-fingerprint2mol-alt_b_prime.yaml"
+      ],
+      "configs": [
+        "experiments/paper/configs/loss-fingerprint2mol-alt_b_prime.yaml"
+      ],
+      "source_csv": "experiments/paper/csv/table2_loss_ablation.csv",
+      "source_row": 15,
+      "run_evidence": null
+    },
+    {
+      "id": "frontier-mirror-i1-o10",
+      "status": "candidate",
+      "paper_result": null,
+      "launcher": "src/train_cli.py",
+      "launch_command": [
+        "uv",
+        "run",
+        "--frozen",
+        "python",
+        "-m",
+        "any2graph_v2.train_cli",
+        "--config",
+        "experiments/paper/configs/frontier-mirror-i1-o10.yaml"
+      ],
+      "configs": [
+        "experiments/paper/configs/frontier-mirror-i1-o10.yaml"
+      ],
+      "source_csv": "experiments/paper/csv/table6_frontier_grid.csv",
+      "source_row": 1,
+      "run_evidence": null
+    },
+    {
+      "id": "frontier-mirror-i1-o100",
+      "status": "candidate",
+      "paper_result": null,
+      "launcher": "src/train_cli.py",
+      "launch_command": [
+        "uv",
+        "run",
+        "--frozen",
+        "python",
+        "-m",
+        "any2graph_v2.train_cli",
+        "--config",
+        "experiments/paper/configs/frontier-mirror-i1-o100.yaml"
+      ],
+      "configs": [
+        "experiments/paper/configs/frontier-mirror-i1-o100.yaml"
+      ],
+      "source_csv": "experiments/paper/csv/table6_frontier_grid.csv",
+      "source_row": 2,
+      "run_evidence": null
+    },
+    {
+      "id": "frontier-mirror-i10-o10",
+      "status": "candidate",
+      "paper_result": null,
+      "launcher": "src/train_cli.py",
+      "launch_command": [
+        "uv",
+        "run",
+        "--frozen",
+        "python",
+        "-m",
+        "any2graph_v2.train_cli",
+        "--config",
+        "experiments/paper/configs/frontier-mirror-i10-o10.yaml"
+      ],
+      "configs": [
+        "experiments/paper/configs/frontier-mirror-i10-o10.yaml"
+      ],
+      "source_csv": "experiments/paper/csv/table6_frontier_grid.csv",
+      "source_row": 3,
+      "run_evidence": null
+    },
+    {
+      "id": "frontier-mirror-i10-o100",
+      "status": "candidate",
+      "paper_result": null,
+      "launcher": "src/train_cli.py",
+      "launch_command": [
+        "uv",
+        "run",
+        "--frozen",
+        "python",
+        "-m",
+        "any2graph_v2.train_cli",
+        "--config",
+        "experiments/paper/configs/frontier-mirror-i10-o100.yaml"
+      ],
+      "configs": [
+        "experiments/paper/configs/frontier-mirror-i10-o100.yaml"
+      ],
+      "source_csv": "experiments/paper/csv/table6_frontier_grid.csv",
+      "source_row": 4,
+      "run_evidence": null
+    },
+    {
+      "id": "frontier-mirror-i100-o10",
+      "status": "candidate",
+      "paper_result": null,
+      "launcher": "src/train_cli.py",
+      "launch_command": [
+        "uv",
+        "run",
+        "--frozen",
+        "python",
+        "-m",
+        "any2graph_v2.train_cli",
+        "--config",
+        "experiments/paper/configs/frontier-mirror-i100-o10.yaml"
+      ],
+      "configs": [
+        "experiments/paper/configs/frontier-mirror-i100-o10.yaml"
+      ],
+      "source_csv": "experiments/paper/csv/table6_frontier_grid.csv",
+      "source_row": 5,
+      "run_evidence": null
+    },
+    {
+      "id": "frontier-mirror-i100-o100",
+      "status": "candidate",
+      "paper_result": null,
+      "launcher": "src/train_cli.py",
+      "launch_command": [
+        "uv",
+        "run",
+        "--frozen",
+        "python",
+        "-m",
+        "any2graph_v2.train_cli",
+        "--config",
+        "experiments/paper/configs/frontier-mirror-i100-o100.yaml"
+      ],
+      "configs": [
+        "experiments/paper/configs/frontier-mirror-i100-o100.yaml"
+      ],
+      "source_csv": "experiments/paper/csv/table6_frontier_grid.csv",
+      "source_row": 6,
+      "run_evidence": null
+    },
+    {
+      "id": "frontier-matcher-i5-kl0",
+      "status": "candidate",
+      "paper_result": null,
+      "launcher": "src/train_cli.py",
+      "launch_command": [
+        "uv",
+        "run",
+        "--frozen",
+        "python",
+        "-m",
+        "any2graph_v2.train_cli",
+        "--config",
+        "experiments/paper/configs/frontier-matcher-i5-kl0.yaml"
+      ],
+      "configs": [
+        "experiments/paper/configs/frontier-matcher-i5-kl0.yaml"
+      ],
+      "source_csv": "experiments/paper/csv/table6_frontier_grid.csv",
+      "source_row": 7,
+      "run_evidence": null
+    },
+    {
+      "id": "frontier-matcher-i10-kl0",
+      "status": "candidate",
+      "paper_result": null,
+      "launcher": "src/train_cli.py",
+      "launch_command": [
+        "uv",
+        "run",
+        "--frozen",
+        "python",
+        "-m",
+        "any2graph_v2.train_cli",
+        "--config",
+        "experiments/paper/configs/frontier-matcher-i10-kl0.yaml"
+      ],
+      "configs": [
+        "experiments/paper/configs/frontier-matcher-i10-kl0.yaml"
+      ],
+      "source_csv": "experiments/paper/csv/table6_frontier_grid.csv",
+      "source_row": 8,
+      "run_evidence": null
+    },
+    {
+      "id": "frontier-matcher-i50-kl0",
+      "status": "candidate",
+      "paper_result": null,
+      "launcher": "src/train_cli.py",
+      "launch_command": [
+        "uv",
+        "run",
+        "--frozen",
+        "python",
+        "-m",
+        "any2graph_v2.train_cli",
+        "--config",
+        "experiments/paper/configs/frontier-matcher-i50-kl0.yaml"
+      ],
+      "configs": [
+        "experiments/paper/configs/frontier-matcher-i50-kl0.yaml"
+      ],
+      "source_csv": "experiments/paper/csv/table6_frontier_grid.csv",
+      "source_row": 9,
+      "run_evidence": null
+    },
+    {
+      "id": "frontier-matcher-i100-kl0",
+      "status": "candidate",
+      "paper_result": null,
+      "launcher": "src/train_cli.py",
+      "launch_command": [
+        "uv",
+        "run",
+        "--frozen",
+        "python",
+        "-m",
+        "any2graph_v2.train_cli",
+        "--config",
+        "experiments/paper/configs/frontier-matcher-i100-kl0.yaml"
+      ],
+      "configs": [
+        "experiments/paper/configs/frontier-matcher-i100-kl0.yaml"
+      ],
+      "source_csv": "experiments/paper/csv/table6_frontier_grid.csv",
+      "source_row": 10,
+      "run_evidence": null
+    },
+    {
+      "id": "frontier-matcher-i5-kl1",
+      "status": "candidate",
+      "paper_result": null,
+      "launcher": "src/train_cli.py",
+      "launch_command": [
+        "uv",
+        "run",
+        "--frozen",
+        "python",
+        "-m",
+        "any2graph_v2.train_cli",
+        "--config",
+        "experiments/paper/configs/frontier-matcher-i5-kl1.yaml"
+      ],
+      "configs": [
+        "experiments/paper/configs/frontier-matcher-i5-kl1.yaml"
+      ],
+      "source_csv": "experiments/paper/csv/table6_frontier_grid.csv",
+      "source_row": 11,
+      "run_evidence": null
+    },
+    {
+      "id": "frontier-matcher-i10-kl1",
+      "status": "candidate",
+      "paper_result": null,
+      "launcher": "src/train_cli.py",
+      "launch_command": [
+        "uv",
+        "run",
+        "--frozen",
+        "python",
+        "-m",
+        "any2graph_v2.train_cli",
+        "--config",
+        "experiments/paper/configs/frontier-matcher-i10-kl1.yaml"
+      ],
+      "configs": [
+        "experiments/paper/configs/frontier-matcher-i10-kl1.yaml"
+      ],
+      "source_csv": "experiments/paper/csv/table6_frontier_grid.csv",
+      "source_row": 12,
+      "run_evidence": null
+    },
+    {
+      "id": "frontier-matcher-i50-kl1",
+      "status": "candidate",
+      "paper_result": null,
+      "launcher": "src/train_cli.py",
+      "launch_command": [
+        "uv",
+        "run",
+        "--frozen",
+        "python",
+        "-m",
+        "any2graph_v2.train_cli",
+        "--config",
+        "experiments/paper/configs/frontier-matcher-i50-kl1.yaml"
+      ],
+      "configs": [
+        "experiments/paper/configs/frontier-matcher-i50-kl1.yaml"
+      ],
+      "source_csv": "experiments/paper/csv/table6_frontier_grid.csv",
+      "source_row": 13,
+      "run_evidence": null
+    },
+    {
+      "id": "frontier-matcher-i100-kl1",
+      "status": "candidate",
+      "paper_result": null,
+      "launcher": "src/train_cli.py",
+      "launch_command": [
+        "uv",
+        "run",
+        "--frozen",
+        "python",
+        "-m",
+        "any2graph_v2.train_cli",
+        "--config",
+        "experiments/paper/configs/frontier-matcher-i100-kl1.yaml"
+      ],
+      "configs": [
+        "experiments/paper/configs/frontier-matcher-i100-kl1.yaml"
+      ],
+      "source_csv": "experiments/paper/csv/table6_frontier_grid.csv",
+      "source_row": 14,
+      "run_evidence": null
+    },
+    {
+      "id": "scaling-n10-matcher-x0.75",
+      "status": "candidate",
+      "paper_result": null,
+      "launcher": "src/train_cli.py",
+      "launch_command": [
+        "uv",
+        "run",
+        "--frozen",
+        "python",
+        "-m",
+        "any2graph_v2.train_cli",
+        "--config",
+        "experiments/paper/configs/scaling-n10-matcher-x0.75.yaml"
+      ],
+      "configs": [
+        "experiments/paper/configs/scaling-n10-matcher-x0.75.yaml"
+      ],
+      "source_csv": "experiments/paper/csv/table7_epsilon_candidates.csv",
+      "source_row": 1,
+      "run_evidence": null
+    },
+    {
+      "id": "scaling-n20-matcher-x0.75",
+      "status": "candidate",
+      "paper_result": null,
+      "launcher": "src/train_cli.py",
+      "launch_command": [
+        "uv",
+        "run",
+        "--frozen",
+        "python",
+        "-m",
+        "any2graph_v2.train_cli",
+        "--config",
+        "experiments/paper/configs/scaling-n20-matcher-x0.75.yaml"
+      ],
+      "configs": [
+        "experiments/paper/configs/scaling-n20-matcher-x0.75.yaml"
+      ],
+      "source_csv": "experiments/paper/csv/table7_epsilon_candidates.csv",
+      "source_row": 2,
+      "run_evidence": null
+    },
+    {
+      "id": "scaling-n30-matcher-x0.75",
+      "status": "candidate",
+      "paper_result": null,
+      "launcher": "src/train_cli.py",
+      "launch_command": [
+        "uv",
+        "run",
+        "--frozen",
+        "python",
+        "-m",
+        "any2graph_v2.train_cli",
+        "--config",
+        "experiments/paper/configs/scaling-n30-matcher-x0.75.yaml"
+      ],
+      "configs": [
+        "experiments/paper/configs/scaling-n30-matcher-x0.75.yaml"
+      ],
+      "source_csv": "experiments/paper/csv/table7_epsilon_candidates.csv",
+      "source_row": 3,
+      "run_evidence": null
+    },
+    {
+      "id": "scaling-n40-matcher-x0.75",
+      "status": "candidate",
+      "paper_result": null,
+      "launcher": "src/train_cli.py",
+      "launch_command": [
+        "uv",
+        "run",
+        "--frozen",
+        "python",
+        "-m",
+        "any2graph_v2.train_cli",
+        "--config",
+        "experiments/paper/configs/scaling-n40-matcher-x0.75.yaml"
+      ],
+      "configs": [
+        "experiments/paper/configs/scaling-n40-matcher-x0.75.yaml"
+      ],
+      "source_csv": "experiments/paper/csv/table7_epsilon_candidates.csv",
+      "source_row": 4,
+      "run_evidence": null
+    },
+    {
+      "id": "scaling-n50-matcher-x0.75",
+      "status": "candidate",
+      "paper_result": null,
+      "launcher": "src/train_cli.py",
+      "launch_command": [
+        "uv",
+        "run",
+        "--frozen",
+        "python",
+        "-m",
+        "any2graph_v2.train_cli",
+        "--config",
+        "experiments/paper/configs/scaling-n50-matcher-x0.75.yaml"
+      ],
+      "configs": [
+        "experiments/paper/configs/scaling-n50-matcher-x0.75.yaml"
+      ],
+      "source_csv": "experiments/paper/csv/table7_epsilon_candidates.csv",
+      "source_row": 5,
+      "run_evidence": null
+    },
+    {
+      "id": "scaling-n60-matcher-x0.75",
+      "status": "candidate",
+      "paper_result": null,
+      "launcher": "src/train_cli.py",
+      "launch_command": [
+        "uv",
+        "run",
+        "--frozen",
+        "python",
+        "-m",
+        "any2graph_v2.train_cli",
+        "--config",
+        "experiments/paper/configs/scaling-n60-matcher-x0.75.yaml"
+      ],
+      "configs": [
+        "experiments/paper/configs/scaling-n60-matcher-x0.75.yaml"
+      ],
+      "source_csv": "experiments/paper/csv/table7_epsilon_candidates.csv",
+      "source_row": 6,
+      "run_evidence": null
+    },
+    {
+      "id": "scaling-n10-matcher-x1",
+      "status": "candidate",
+      "paper_result": null,
+      "launcher": "src/train_cli.py",
+      "launch_command": [
+        "uv",
+        "run",
+        "--frozen",
+        "python",
+        "-m",
+        "any2graph_v2.train_cli",
+        "--config",
+        "experiments/paper/configs/scaling-n10-matcher-x1.yaml"
+      ],
+      "configs": [
+        "experiments/paper/configs/scaling-n10-matcher-x1.yaml"
+      ],
+      "source_csv": "experiments/paper/csv/table7_epsilon_candidates.csv",
+      "source_row": 7,
+      "run_evidence": null
+    },
+    {
+      "id": "scaling-n20-matcher-x1",
+      "status": "candidate",
+      "paper_result": null,
+      "launcher": "src/train_cli.py",
+      "launch_command": [
+        "uv",
+        "run",
+        "--frozen",
+        "python",
+        "-m",
+        "any2graph_v2.train_cli",
+        "--config",
+        "experiments/paper/configs/scaling-n20-matcher-x1.yaml"
+      ],
+      "configs": [
+        "experiments/paper/configs/scaling-n20-matcher-x1.yaml"
+      ],
+      "source_csv": "experiments/paper/csv/table7_epsilon_candidates.csv",
+      "source_row": 8,
+      "run_evidence": null
+    },
+    {
+      "id": "scaling-n30-matcher-x1",
+      "status": "candidate",
+      "paper_result": null,
+      "launcher": "src/train_cli.py",
+      "launch_command": [
+        "uv",
+        "run",
+        "--frozen",
+        "python",
+        "-m",
+        "any2graph_v2.train_cli",
+        "--config",
+        "experiments/paper/configs/scaling-n30-matcher-x1.yaml"
+      ],
+      "configs": [
+        "experiments/paper/configs/scaling-n30-matcher-x1.yaml"
+      ],
+      "source_csv": "experiments/paper/csv/table7_epsilon_candidates.csv",
+      "source_row": 9,
+      "run_evidence": null
+    },
+    {
+      "id": "scaling-n40-matcher-x1",
+      "status": "candidate",
+      "paper_result": null,
+      "launcher": "src/train_cli.py",
+      "launch_command": [
+        "uv",
+        "run",
+        "--frozen",
+        "python",
+        "-m",
+        "any2graph_v2.train_cli",
+        "--config",
+        "experiments/paper/configs/scaling-n40-matcher-x1.yaml"
+      ],
+      "configs": [
+        "experiments/paper/configs/scaling-n40-matcher-x1.yaml"
+      ],
+      "source_csv": "experiments/paper/csv/table7_epsilon_candidates.csv",
+      "source_row": 10,
+      "run_evidence": null
+    },
+    {
+      "id": "scaling-n50-matcher-x1",
+      "status": "candidate",
+      "paper_result": null,
+      "launcher": "src/train_cli.py",
+      "launch_command": [
+        "uv",
+        "run",
+        "--frozen",
+        "python",
+        "-m",
+        "any2graph_v2.train_cli",
+        "--config",
+        "experiments/paper/configs/scaling-n50-matcher-x1.yaml"
+      ],
+      "configs": [
+        "experiments/paper/configs/scaling-n50-matcher-x1.yaml"
+      ],
+      "source_csv": "experiments/paper/csv/table7_epsilon_candidates.csv",
+      "source_row": 11,
+      "run_evidence": null
+    },
+    {
+      "id": "scaling-n60-matcher-x1",
+      "status": "candidate",
+      "paper_result": null,
+      "launcher": "src/train_cli.py",
+      "launch_command": [
+        "uv",
+        "run",
+        "--frozen",
+        "python",
+        "-m",
+        "any2graph_v2.train_cli",
+        "--config",
+        "experiments/paper/configs/scaling-n60-matcher-x1.yaml"
+      ],
+      "configs": [
+        "experiments/paper/configs/scaling-n60-matcher-x1.yaml"
+      ],
+      "source_csv": "experiments/paper/csv/table7_epsilon_candidates.csv",
+      "source_row": 12,
+      "run_evidence": null
+    },
+    {
+      "id": "scaling-n10-matcher-x1.5",
+      "status": "candidate",
+      "paper_result": null,
+      "launcher": "src/train_cli.py",
+      "launch_command": [
+        "uv",
+        "run",
+        "--frozen",
+        "python",
+        "-m",
+        "any2graph_v2.train_cli",
+        "--config",
+        "experiments/paper/configs/scaling-n10-matcher-x1.5.yaml"
+      ],
+      "configs": [
+        "experiments/paper/configs/scaling-n10-matcher-x1.5.yaml"
+      ],
+      "source_csv": "experiments/paper/csv/table7_epsilon_candidates.csv",
+      "source_row": 13,
+      "run_evidence": null
+    },
+    {
+      "id": "scaling-n20-matcher-x1.5",
+      "status": "candidate",
+      "paper_result": null,
+      "launcher": "src/train_cli.py",
+      "launch_command": [
+        "uv",
+        "run",
+        "--frozen",
+        "python",
+        "-m",
+        "any2graph_v2.train_cli",
+        "--config",
+        "experiments/paper/configs/scaling-n20-matcher-x1.5.yaml"
+      ],
+      "configs": [
+        "experiments/paper/configs/scaling-n20-matcher-x1.5.yaml"
+      ],
+      "source_csv": "experiments/paper/csv/table7_epsilon_candidates.csv",
+      "source_row": 14,
+      "run_evidence": null
+    },
+    {
+      "id": "scaling-n30-matcher-x1.5",
+      "status": "candidate",
+      "paper_result": null,
+      "launcher": "src/train_cli.py",
+      "launch_command": [
+        "uv",
+        "run",
+        "--frozen",
+        "python",
+        "-m",
+        "any2graph_v2.train_cli",
+        "--config",
+        "experiments/paper/configs/scaling-n30-matcher-x1.5.yaml"
+      ],
+      "configs": [
+        "experiments/paper/configs/scaling-n30-matcher-x1.5.yaml"
+      ],
+      "source_csv": "experiments/paper/csv/table7_epsilon_candidates.csv",
+      "source_row": 15,
+      "run_evidence": null
+    },
+    {
+      "id": "scaling-n40-matcher-x1.5",
+      "status": "candidate",
+      "paper_result": null,
+      "launcher": "src/train_cli.py",
+      "launch_command": [
+        "uv",
+        "run",
+        "--frozen",
+        "python",
+        "-m",
+        "any2graph_v2.train_cli",
+        "--config",
+        "experiments/paper/configs/scaling-n40-matcher-x1.5.yaml"
+      ],
+      "configs": [
+        "experiments/paper/configs/scaling-n40-matcher-x1.5.yaml"
+      ],
+      "source_csv": "experiments/paper/csv/table7_epsilon_candidates.csv",
+      "source_row": 16,
+      "run_evidence": null
+    },
+    {
+      "id": "scaling-n50-matcher-x1.5",
+      "status": "candidate",
+      "paper_result": null,
+      "launcher": "src/train_cli.py",
+      "launch_command": [
+        "uv",
+        "run",
+        "--frozen",
+        "python",
+        "-m",
+        "any2graph_v2.train_cli",
+        "--config",
+        "experiments/paper/configs/scaling-n50-matcher-x1.5.yaml"
+      ],
+      "configs": [
+        "experiments/paper/configs/scaling-n50-matcher-x1.5.yaml"
+      ],
+      "source_csv": "experiments/paper/csv/table7_epsilon_candidates.csv",
+      "source_row": 17,
+      "run_evidence": null
+    },
+    {
+      "id": "scaling-n60-matcher-x1.5",
+      "status": "candidate",
+      "paper_result": null,
+      "launcher": "src/train_cli.py",
+      "launch_command": [
+        "uv",
+        "run",
+        "--frozen",
+        "python",
+        "-m",
+        "any2graph_v2.train_cli",
+        "--config",
+        "experiments/paper/configs/scaling-n60-matcher-x1.5.yaml"
+      ],
+      "configs": [
+        "experiments/paper/configs/scaling-n60-matcher-x1.5.yaml"
+      ],
+      "source_csv": "experiments/paper/csv/table7_epsilon_candidates.csv",
+      "source_row": 18,
+      "run_evidence": null
+    },
+    {
+      "id": "scaling-n10-mirror",
+      "status": "candidate",
+      "paper_result": null,
+      "launcher": "src/train_cli.py",
+      "launch_command": [
+        "uv",
+        "run",
+        "--frozen",
+        "python",
+        "-m",
+        "any2graph_v2.train_cli",
+        "--config",
+        "experiments/paper/configs/scaling-n10-mirror.yaml"
+      ],
+      "configs": [
+        "experiments/paper/configs/scaling-n10-mirror.yaml"
+      ],
+      "source_csv": "experiments/paper/csv/figure2_scaling_results_template.csv",
+      "source_row": 2,
+      "run_evidence": null
+    },
+    {
+      "id": "scaling-n20-mirror",
+      "status": "candidate",
+      "paper_result": null,
+      "launcher": "src/train_cli.py",
+      "launch_command": [
+        "uv",
+        "run",
+        "--frozen",
+        "python",
+        "-m",
+        "any2graph_v2.train_cli",
+        "--config",
+        "experiments/paper/configs/scaling-n20-mirror.yaml"
+      ],
+      "configs": [
+        "experiments/paper/configs/scaling-n20-mirror.yaml"
+      ],
+      "source_csv": "experiments/paper/csv/figure2_scaling_results_template.csv",
+      "source_row": 4,
+      "run_evidence": null
+    },
+    {
+      "id": "scaling-n30-mirror",
+      "status": "candidate",
+      "paper_result": null,
+      "launcher": "src/train_cli.py",
+      "launch_command": [
+        "uv",
+        "run",
+        "--frozen",
+        "python",
+        "-m",
+        "any2graph_v2.train_cli",
+        "--config",
+        "experiments/paper/configs/scaling-n30-mirror.yaml"
+      ],
+      "configs": [
+        "experiments/paper/configs/scaling-n30-mirror.yaml"
+      ],
+      "source_csv": "experiments/paper/csv/figure2_scaling_results_template.csv",
+      "source_row": 6,
+      "run_evidence": null
+    },
+    {
+      "id": "scaling-n40-mirror",
+      "status": "candidate",
+      "paper_result": null,
+      "launcher": "src/train_cli.py",
+      "launch_command": [
+        "uv",
+        "run",
+        "--frozen",
+        "python",
+        "-m",
+        "any2graph_v2.train_cli",
+        "--config",
+        "experiments/paper/configs/scaling-n40-mirror.yaml"
+      ],
+      "configs": [
+        "experiments/paper/configs/scaling-n40-mirror.yaml"
+      ],
+      "source_csv": "experiments/paper/csv/figure2_scaling_results_template.csv",
+      "source_row": 8,
+      "run_evidence": null
+    },
+    {
+      "id": "scaling-n50-mirror",
+      "status": "candidate",
+      "paper_result": null,
+      "launcher": "src/train_cli.py",
+      "launch_command": [
+        "uv",
+        "run",
+        "--frozen",
+        "python",
+        "-m",
+        "any2graph_v2.train_cli",
+        "--config",
+        "experiments/paper/configs/scaling-n50-mirror.yaml"
+      ],
+      "configs": [
+        "experiments/paper/configs/scaling-n50-mirror.yaml"
+      ],
+      "source_csv": "experiments/paper/csv/figure2_scaling_results_template.csv",
+      "source_row": 10,
+      "run_evidence": null
+    },
+    {
+      "id": "scaling-n60-mirror",
+      "status": "candidate",
+      "paper_result": null,
+      "launcher": "src/train_cli.py",
+      "launch_command": [
+        "uv",
+        "run",
+        "--frozen",
+        "python",
+        "-m",
+        "any2graph_v2.train_cli",
+        "--config",
+        "experiments/paper/configs/scaling-n60-mirror.yaml"
+      ],
+      "configs": [
+        "experiments/paper/configs/scaling-n60-mirror.yaml"
+      ],
+      "source_csv": "experiments/paper/csv/figure2_scaling_results_template.csv",
+      "source_row": 12,
+      "run_evidence": null
+    }
+  ],
+  "paper_source": "experiments/paper/source.json",
+  "reported_tables": [
+    "experiments/paper/csv/figure2_scaling_results_template.csv",
+    "experiments/paper/csv/table1_main_results.csv",
+    "experiments/paper/csv/table2_loss_ablation.csv",
+    "experiments/paper/csv/table3_dataset_statistics.csv",
+    "experiments/paper/csv/table4_hyperparameters.csv",
+    "experiments/paper/csv/table5_coloring_budgets.csv",
+    "experiments/paper/csv/table6_frontier_grid.csv",
+    "experiments/paper/csv/table7_epsilon_candidates.csv"
+  ]
+}

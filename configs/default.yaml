@@ -1,0 +1,122 @@
+# Primary full-molecule Fingerprint2Graph Sinkhorn experiment.
+
+task:
+  # Task routing, source data, graph capacity, batching, and sampling.
+  task: fingerprint2graph  # Selects both the dataloader and input encoder.
+  scaffold: false  # Predict Murcko scaffolds instead of full molecules.
+  n_nodes_max: 16  # Maximum number of target graph nodes.
+  n_peaks_max: 128  # Maximum MS2 peaks retained per spectrum.
+  n_tokens_max: 256  # Maximum SOS-plus-fingerprint-token sequence length.
+  batch_size: 128  # Examples per optimizer batch.
+
+hardware:
+  num_workers: 8  # Parallel DataLoader worker processes.
+  pin_memory: true  # Pins CPU batches before GPU transfer.
+  
+  remove_invalid_molecules: true  # Drops invalid targets instead of using fallback handling.
+  seed: 0  # Random split, sampling, and initialization seed.
+
+fingerprint2graph options:
+  data_file: src/data/fingerprint2graph/PUBCHEM_16.csv  
+
+ms2graph options:
+  data_dir: src/data/massspecgym  # MassSpecGym root used by ms2graph. Used only if task = ms2graph.
+  split_method: formula  # MassSpecGym split CSV basename.
+  train_iteration_mode: spectrum  # MassSpecGym training sampling unit.
+  eval_iteration_mode: spectrum  # MassSpecGym evaluation sampling unit.
+  spectrum_representation: annotated  # Annotated or raw MS2 peak features.
+  use_collision_energy: true  # Conditions the MS2 encoder on collision energy.
+  collision_energy_max: 100.0  # Scale used by the collision-energy encoding.
+  use_token_positions: true  # Adds positions to fingerprint substructure tokens.
+
+predictor:
+  # Input Transformer, node decoder, and graph prediction head.
+  graph_decoder_type: node_query  # node_query or relationformer with a global relation token.
+  d_token_input: 512  # Input Transformer token width.
+  d_node_decoder: 512  # Predicted node and matcher-interface width.
+  n_heads: 8  # Input and decoder attention heads.
+  encoder_layers: 3  # Input Transformer layer count.
+  decoder_layers: 3  # Node-query Transformer layer count.
+  d_token_input_feedforward: 1024  # Input-token Transformer MLP hidden width.
+  d_node_decoder_feedforward: 1024  # Node-decoder Transformer MLP hidden width.
+  d_edge_decoder: 512  # Symmetric bond-head latent width.
+  dropout: 0.1  # Input Transformer, decoder, and head dropout.
+  coloring_image_encoder_type: resnet18  # Coloring RGB backbone; unused by molecular tasks.
+  image_feature_grid_size: 16  # Maximum Coloring encoder output-grid side.
+
+target_encoder:
+  # Target-graph encoder used to provide matcher embeddings.
+  target_encoder_type: gnn  # Relation-specific GNN target encoder.
+  use_laplacian_pe: true  # Adds target Laplacian eigenvector features.
+  laplacian_pe_dim: 8  # Maximum nontrivial Laplacian eigenvectors.
+
+  d_node_target: 512  # Target node-state width.
+  target_layers: 3  # Target graph encoder layer count.
+  target_dropout: 0.1  # Target graph encoder dropout.
+  
+
+matcher:
+  # Learned predicted-to-target soft matching.
+  matcher_type: sinkhorn  # Selects Sinkhorn or softsort matching.
+  matcher_dim: 128  # Matcher projection width.
+  sinkhorn_mode: unrolling  # Differentiates through unrolled Sinkhorn updates.
+  sinkhorn_iterations: 20  # Sinkhorn update budget for either differentiation mode.
+  sinkhorn_tolerance: 1e-6  # Implicit Sinkhorn convergence tolerance.
+  sinkhorn_check_convergence_every: 10  # Implicit convergence-check interval.
+  matcher_epsilon: 0.0001  # Transport temperature.
+  normalize_matcher_cost: true  # Normalizes every pairwise cost matrix by its sum.
+
+solver:
+  # Non-learned graph matching; used only when old_solver_approach is true.
+  old_solver_approach: false  # Omits the target encoder and learned matcher when true.
+  solver_type: mirror  # frank_wolfe or mirror.
+  solver_backend: GPU  # CPU uses SciPy; GPU uses torch-linear-assignment.
+  tau: 0.1  # Mirror KL-proximal regularization weight.
+  max_iter_inner: 20  # Sinkhorn update budget per mirror step.
+  tol_inner: 1e-5  # Sinkhorn marginal tolerance.
+  max_iter_outer: 20  # Frank-Wolfe or mirror outer update budget.
+  tol_outer: 1e-5  # Objective-change (Frank-Wolfe) or plan-change (mirror) tolerance.
+
+objective:
+  # GRALE graph reconstruction loss weights and masking policy.
+  reconstruction_loss: original  # original or one of the four aligned relaxations.
+  alpha_presence: 1.0  # Node-presence binary cross-entropy weight.
+  alpha_atom: 1.0  # Atom categorical reconstruction weight.
+  alpha_bond: 0.2  # Bond categorical reconstruction weight.
+  alpha_adjacency: 0.5  # Binary adjacency reconstruction weight.
+  alpha_marginal: 1.0  # Transport-plan MarginalKL weight.
+  feature_diffusion: false  # Enables an independent A@F head and matching/loss term.
+  alpha_feature_diffusion: 1.0  # Squared-L2 weight for the one-hop A@F feature.
+  exclude_self_loops: false  # Removes bond diagonal entries from bond losses.
+
+training:
+  # Optimizer, Lightning runtime, stopping, logging, and artifacts.
+  learning_rate: 0.0001  # AdamW learning rate.
+  weight_decay: 0.0  # AdamW decoupled weight decay.
+  lr_scheduler: constant  # Constant or step-wise linear-warmup cosine schedule.
+  lr_warmup_fraction: 0.05  # Fraction of optimizer steps used for warmup.
+  min_learning_rate: 0.0  # Terminal cosine learning rate; ignored when constant.
+  max_epochs: 100  # Maximum complete training epochs.
+  gradient_clip_val: 1.0  # Global gradient norm clipping threshold.
+  early_stopping_patience: 20  # Validation checks without val/loss improvement before stopping.
+  early_stopping_min_delta: 0.0  # Minimum val/loss decrease counted as improvement.
+  presence_threshold: 0.5  # Node probability threshold used by graph metrics.
+  accelerator: gpu  # Lightning accelerator selection.
+  devices: 1  # Number of accelerator devices.
+  precision: 32-true  # Lightning numerical precision policy.
+  deterministic: false  # Requests deterministic algorithms when true.
+  log_every_n_steps: 10  # Training-step logging interval.
+  checkpoint_every: 10000  # Retain a snapshot every N optimizer steps.
+  limit_train_batches: null  # Optional integer training batches per epoch; null means all.
+  limit_val_batches: null  # Optional integer validation batches per epoch; null means all.
+  validation_interval_minutes: null  # Optional extra full-validation cadence; epoch-end validation is always retained.
+  wandb_mode: online  # Online, offline, or disabled W&B logging.
+  wandb_project: any2graph-v2  # W&B project name.
+  wandb_entity: null  # Optional W&B user or team.
+  run_name: full-sinkhorn  # Run label; SLURM templates override this value.
+  output_dir: artifacts/full-sinkhorn  # Artifact root; SLURM templates derive this from RUN_NAME.
+  enable_progress_bar: false  # Displays Lightning's interactive terminal progress bar.
+  checkpoint_path: null  # Optional checkpoint to resume; null starts a fresh run.
+  enable_timing_metrics: false  # Sample synchronized transport and full-step timings.
+  timing_warmup_steps: 10  # Optimizer steps excluded before timing starts.
+  timing_interval_steps: 10  # Optimizer steps between synchronized timing samples.

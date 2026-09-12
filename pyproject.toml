@@ -1,0 +1,70 @@
+[project]
+name = "any2graph-v2"
+version = "0.1.0"
+description = "Graph prediction from mass spectra or fingerprints with learned matching"
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "lightning>=2.4,<3",
+    "numpy>=2.0,<3",
+    "pandas>=2.2,<3",
+    "pyyaml>=6,<7",
+    "rdkit>=2024.3",
+    "scipy>=1.13,<2",
+    "torch>=2.4,<3",
+    "tqdm>=4.66,<5",
+    "wandb>=0.18,<1",
+]
+
+[project.optional-dependencies]
+frank-wolfe-gpu = ["torch-linear-assignment==0.0.6"]
+
+[tool.uv]
+no-build-isolation-package = ["torch-linear-assignment"]
+
+[tool.uv.sources]
+torch = [
+    { index = "pytorch-cu126", marker = "sys_platform == 'linux' or sys_platform == 'win32'" },
+]
+
+[[tool.uv.index]]
+name = "pytorch-cu126"
+url = "https://download.pytorch.org/whl/cu126"
+explicit = true
+
+[project.scripts]
+any2graph-data = "any2graph_v2.data_cli:main"
+any2graph-predict = "any2graph_v2.predict_cli:main"
+any2graph-encode-targets = "any2graph_v2.encode_targets_cli:main"
+any2graph-match = "any2graph_v2.match_cli:main"
+any2graph-loss = "any2graph_v2.loss_cli:main"
+any2graph-train = "any2graph_v2.train_cli:main"
+any2graph-evaluate-matcher = "any2graph_v2.eval_matcher_cli:main"
+any2graph-evaluate = "any2graph_v2.evaluate_cli:main"
+any2graph-examples = "any2graph_v2.qualitative_examples_cli:main"
+any2graph-preprocess-fingerprints = "any2graph_v2.preprocess_fingerprints:main"
+any2graph-generate-coloring = "any2graph_v2.generate_coloring:main"
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29,<7",
+    "matplotlib>=3.9,<4",
+    "nbconvert>=7.16,<8",
+    "nbformat>=5.10,<6",
+]
+
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = [
+    "any2graph_v2",
+    "any2graph_v2.data",
+    "any2graph_v2.models",
+    "any2graph_v2.losses",
+    "any2graph_v2.metrics",
+    "any2graph_v2.solvers",
+]
+package-dir = {any2graph_v2 = "src"}
+include-package-data = false

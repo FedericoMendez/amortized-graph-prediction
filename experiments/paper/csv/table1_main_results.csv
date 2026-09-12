@@ -1,0 +1,17 @@
+task,model,edit_distance,gi_accuracy_percent,source_page,source_table
+Coloring10,FGWBARY,6.73,1,5,1
+Coloring20,FGWBARY,,,5,1
+MS2Scaffold,FGWBARY,,,5,1
+Fingerprint2Mol,FGWBARY,,,5,1
+Coloring10,Relationformer,5.47,18.14,5,1
+Coloring20,Relationformer,17.28,3.58,5,1
+MS2Scaffold,Relationformer,32.72,0,5,1
+Fingerprint2Mol,Relationformer,25.2,0,5,1
+Coloring10,Any2Graph,2.82,31.79,5,1
+Coloring20,Any2Graph,16.64,18.92,5,1
+MS2Scaffold,Any2Graph,19.11,5.61,5,1
+Fingerprint2Mol,Any2Graph,17.64,0.001,5,1
+Coloring10,Any2Graph + Matcher,2.3,45.46,5,1
+Coloring20,Any2Graph + Matcher,2.64,46.47,5,1
+MS2Scaffold,Any2Graph + Matcher,12.17,29.48,5,1
+Fingerprint2Mol,Any2Graph + Matcher,7.01,15.79,5,1

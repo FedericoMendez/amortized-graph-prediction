@@ -1,0 +1,21 @@
+parameter,molecular_tasks,coloring,source_page,source_table
+input_encoder,3-layer Transformer,SegFormer-B1,18,4
+encoder_dimension,512,128,18,4
+node_decoder_layers,3,5,18,4
+node_decoder_width,512,256,18,4
+attention_heads,8,4,18,4
+target_gnn_layers,3,5,18,4
+target_gnn_width,512,128,18,4
+laplacian_pe_dimension,8,8,18,4
+matcher_dimension,128,256,18,4
+dropout,0.1,0.1,18,4
+sinkhorn_iterations,20,20,18,4
+optimizer,AdamW,AdamW,18,4
+learning_rate,0.0001,0.0001,18,4
+minimum_learning_rate,0.00001,0.00001,18,4
+schedule,5% warmup + cosine,5% warmup + cosine,18,4
+batch_size,128,size-dependent,18,4
+max_epochs,100 MS2Scaffold / 10 Fingerprint2Mol,size-dependent,18,4
+gradient_clip,1,0.1,18,4
+precision,FP32,FP32,18,4
+hardware,1 NVIDIA V100,1 NVIDIA V100,18,4

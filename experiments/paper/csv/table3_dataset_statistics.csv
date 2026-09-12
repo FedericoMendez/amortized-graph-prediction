@@ -1,0 +1,9 @@
+dataset,min_nodes,mean_nodes,max_nodes,samples,source_page,source_table
+Coloring10,5,7.51,10,200000,17,3
+Coloring20,5,12.51,20,400000,17,3
+Coloring30,5,17.52,30,600000,17,3
+Coloring40,5,22.52,40,800000,17,3
+Coloring50,5,27.5,50,1000000,17,3
+Coloring60,5,32.49,60,1200000,17,3
+MS2Scaffold,3,17.25,32,168573,17,3
+Fingerprint2Mol,1,21.82,32,80897368,17,3

@@ -1,0 +1,14 @@
+src/data/*
+!src/data/*.py
+/references/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.coverage
+htmlcov/
+artifacts/
+*.egg-info/
+build/
+dist/

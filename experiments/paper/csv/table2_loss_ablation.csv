@@ -1,0 +1,16 @@
+task,paper_loss,edit_distance,gi_accuracy_percent,source_page,source_table
+Coloring20,"J(T;prediction,target)",2.64,46.47,5,2
+MS2Scaffold,"J(T;prediction,target)",12.17,29.48,5,2
+Fingerprint2Mol,"J(T;prediction,target)",7.01,15.79,5,2
+Coloring20,"Ja(T;prediction,target)",19.36,7.35,5,2
+MS2Scaffold,"Ja(T;prediction,target)",17.98,3.15,5,2
+Fingerprint2Mol,"Ja(T;prediction,target)",15.56,0.42,5,2
+Coloring20,"Jb(T;prediction,target)",22.42,0.61,5,2
+MS2Scaffold,"Jb(T;prediction,target)",20.29,0.23,5,2
+Fingerprint2Mol,"Jb(T;prediction,target)",18.71,0.14,5,2
+Coloring20,"Ja(T;target,prediction)",25.84,0.42,5,2
+MS2Scaffold,"Ja(T;target,prediction)",24.39,0,5,2
+Fingerprint2Mol,"Ja(T;target,prediction)",29.49,0.01,5,2
+Coloring20,"Jb(T;target,prediction)",13.61,13.51,5,2
+MS2Scaffold,"Jb(T;target,prediction)",17.19,4.32,5,2
+Fingerprint2Mol,"Jb(T;target,prediction)",19.47,0.12,5,2

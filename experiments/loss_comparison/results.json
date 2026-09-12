@@ -1,0 +1,3269 @@
+{
+  "reference_commit": "b0c541c58a315941fcb025266571cdda3e13a61f",
+  "cases": [
+    {
+      "seed": 7,
+      "padded": false,
+      "exclude_self_loops": false,
+      "plan": "identity",
+      "loss": "alt_a",
+      "value_max_abs": 0.0,
+      "gradient_max_abs": 16.224142389487817,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 0.0,
+        "bond": 0.0,
+        "adjacency": 0.0,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 7,
+      "padded": false,
+      "exclude_self_loops": false,
+      "plan": "identity",
+      "loss": "alt_b",
+      "value_max_abs": 0.0,
+      "gradient_max_abs": 32.135817941112705,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 0.0,
+        "bond": 0.0,
+        "adjacency": 0.0,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 7,
+      "padded": false,
+      "exclude_self_loops": false,
+      "plan": "identity",
+      "loss": "alt_a_prime",
+      "value_max_abs": 0.0,
+      "gradient_max_abs": 12.375095903792184,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 0.0,
+        "bond": 0.0,
+        "adjacency": 0.0,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 7,
+      "padded": false,
+      "exclude_self_loops": false,
+      "plan": "identity",
+      "loss": "alt_b_prime",
+      "value_max_abs": 0.0,
+      "gradient_max_abs": 0.7080590005184788,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 0.0,
+        "bond": 0.0,
+        "adjacency": 0.0,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 7,
+      "padded": false,
+      "exclude_self_loops": false,
+      "plan": "permutation",
+      "loss": "alt_a",
+      "value_max_abs": 0.0,
+      "gradient_max_abs": 16.130536231534176,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 0.0,
+        "bond": 0.0,
+        "adjacency": 0.0,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 7,
+      "padded": false,
+      "exclude_self_loops": false,
+      "plan": "permutation",
+      "loss": "alt_b",
+      "value_max_abs": 0.0,
+      "gradient_max_abs": 32.09987774673224,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 0.0,
+        "bond": 0.0,
+        "adjacency": 0.0,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 7,
+      "padded": false,
+      "exclude_self_loops": false,
+      "plan": "permutation",
+      "loss": "alt_a_prime",
+      "value_max_abs": 0.0,
+      "gradient_max_abs": 12.2856623665254,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 0.0,
+        "bond": 2.220446049250313e-16,
+        "adjacency": 2.220446049250313e-16,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 7,
+      "padded": false,
+      "exclude_self_loops": false,
+      "plan": "permutation",
+      "loss": "alt_b_prime",
+      "value_max_abs": 0.0,
+      "gradient_max_abs": 0.7831025982567311,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 0.0,
+        "bond": 2.220446049250313e-16,
+        "adjacency": 0.0,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 7,
+      "padded": false,
+      "exclude_self_loops": false,
+      "plan": "bistochastic",
+      "loss": "alt_a",
+      "value_max_abs": 0.47677374075449896,
+      "gradient_max_abs": 5.5756739358133744,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.1637688433921487,
+        "atom": 0.17698643938864866,
+        "bond": 0.00377316383808618,
+        "adjacency": 0.005182906665499393,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 7,
+      "padded": false,
+      "exclude_self_loops": false,
+      "plan": "bistochastic",
+      "loss": "alt_b",
+      "value_max_abs": 0.0,
+      "gradient_max_abs": 2.8540660379009832,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 0.0,
+        "bond": 0.0,
+        "adjacency": 2.7755575615628914e-17,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 7,
+      "padded": false,
+      "exclude_self_loops": false,
+      "plan": "bistochastic",
+      "loss": "alt_a_prime",
+      "value_max_abs": 1.1233665531261248,
+      "gradient_max_abs": 6.529441276135092,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 0.9283680285226463,
+        "bond": 0.0037731638380862353,
+        "adjacency": 0.0051829066654994205,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 7,
+      "padded": false,
+      "exclude_self_loops": false,
+      "plan": "bistochastic",
+      "loss": "alt_b_prime",
+      "value_max_abs": 0.1195873521256261,
+      "gradient_max_abs": 0.14012714785314578,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.016081664033330556,
+        "atom": 0.05504430030250851,
+        "bond": 0.002671148208653662,
+        "adjacency": 0.0014234149941944052,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 7,
+      "padded": false,
+      "exclude_self_loops": false,
+      "plan": "imperfect",
+      "loss": "alt_a",
+      "value_max_abs": 0.15178694241382829,
+      "gradient_max_abs": 4.686852210752327,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.040817542172943866,
+        "atom": 0.039772853904919137,
+        "bond": 0.11033174794782791,
+        "adjacency": 0.03651647526712354,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 7,
+      "padded": false,
+      "exclude_self_loops": false,
+      "plan": "imperfect",
+      "loss": "alt_b",
+      "value_max_abs": 0.2118934261030896,
+      "gradient_max_abs": 2.432955271167645,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.1467619047023656,
+        "atom": 2.220446049250313e-16,
+        "bond": 0.017530735734801017,
+        "adjacency": 0.11903804452755687,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 7,
+      "padded": false,
+      "exclude_self_loops": false,
+      "plan": "imperfect",
+      "loss": "alt_a_prime",
+      "value_max_abs": 0.8211288668612307,
+      "gradient_max_abs": 6.083567561213943,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.022374057087784838,
+        "atom": 0.6792411462162051,
+        "bond": 0.014028581400542861,
+        "adjacency": 0.013708437292458936,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 7,
+      "padded": false,
+      "exclude_self_loops": false,
+      "plan": "imperfect",
+      "loss": "alt_b_prime",
+      "value_max_abs": 0.03988114166107826,
+      "gradient_max_abs": 0.11434243445782147,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.014645117637954619,
+        "atom": 0.022676711289635332,
+        "bond": 0.0077534396799985306,
+        "adjacency": 0.010125126462609657,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 7,
+      "padded": false,
+      "exclude_self_loops": true,
+      "plan": "identity",
+      "loss": "alt_a",
+      "value_max_abs": 0.0,
+      "gradient_max_abs": 16.24191255435809,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 0.0,
+        "bond": 0.0,
+        "adjacency": 0.0,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 7,
+      "padded": false,
+      "exclude_self_loops": true,
+      "plan": "identity",
+      "loss": "alt_b",
+      "value_max_abs": 0.0,
+      "gradient_max_abs": 32.14917964872177,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 0.0,
+        "bond": 0.0,
+        "adjacency": 0.0,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 7,
+      "padded": false,
+      "exclude_self_loops": true,
+      "plan": "identity",
+      "loss": "alt_a_prime",
+      "value_max_abs": 4.440892098500626e-16,
+      "gradient_max_abs": 12.376739372938667,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 0.0,
+        "bond": 0.0,
+        "adjacency": 0.0,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 7,
+      "padded": false,
+      "exclude_self_loops": true,
+      "plan": "identity",
+      "loss": "alt_b_prime",
+      "value_max_abs": 4.440892098500626e-16,
+      "gradient_max_abs": 0.6966550836117432,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 0.0,
+        "bond": 0.0,
+        "adjacency": 0.0,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 7,
+      "padded": false,
+      "exclude_self_loops": true,
+      "plan": "permutation",
+      "loss": "alt_a",
+      "value_max_abs": 0.06668302794422853,
+      "gradient_max_abs": 16.43878017459488,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 0.0,
+        "bond": 0.09937531236123576,
+        "adjacency": 0.09773515610828598,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 7,
+      "padded": false,
+      "exclude_self_loops": true,
+      "plan": "permutation",
+      "loss": "alt_b",
+      "value_max_abs": 0.0,
+      "gradient_max_abs": 32.11937462544098,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 0.0,
+        "bond": 0.0,
+        "adjacency": 0.0,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 7,
+      "padded": false,
+      "exclude_self_loops": true,
+      "plan": "permutation",
+      "loss": "alt_a_prime",
+      "value_max_abs": 0.06668302794422853,
+      "gradient_max_abs": 12.59257248696295,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 0.0,
+        "bond": 0.09937531236123598,
+        "adjacency": 0.09773515610828587,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 7,
+      "padded": false,
+      "exclude_self_loops": true,
+      "plan": "permutation",
+      "loss": "alt_b_prime",
+      "value_max_abs": 0.0,
+      "gradient_max_abs": 0.7716986813499956,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 0.0,
+        "bond": 2.220446049250313e-16,
+        "adjacency": 0.0,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 7,
+      "padded": false,
+      "exclude_self_loops": true,
+      "plan": "bistochastic",
+      "loss": "alt_a",
+      "value_max_abs": 0.4754212386311576,
+      "gradient_max_abs": 5.625255039162359,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.1637688433921487,
+        "atom": 0.17698643938864866,
+        "bond": 0.007454113707705323,
+        "adjacency": 0.015996312875991292,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 7,
+      "padded": false,
+      "exclude_self_loops": true,
+      "plan": "bistochastic",
+      "loss": "alt_b",
+      "value_max_abs": 0.0,
+      "gradient_max_abs": 2.0825488567649213,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 0.0,
+        "bond": 8.326672684688674e-17,
+        "adjacency": 2.7755575615628914e-17,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 7,
+      "padded": false,
+      "exclude_self_loops": true,
+      "plan": "bistochastic",
+      "loss": "alt_a_prime",
+      "value_max_abs": 1.1308303245052969,
+      "gradient_max_abs": 5.141911105649601,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 0.9283680285226463,
+        "bond": 0.007454113707705323,
+        "adjacency": 0.015996312875991292,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 7,
+      "padded": false,
+      "exclude_self_loops": true,
+      "plan": "bistochastic",
+      "loss": "alt_b_prime",
+      "value_max_abs": 0.1192531186763266,
+      "gradient_max_abs": 0.1435764366773198,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.016081664033330556,
+        "atom": 0.05504430030250851,
+        "bond": 0.002097658988479467,
+        "adjacency": 0.0016402427418337195,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 7,
+      "padded": false,
+      "exclude_self_loops": true,
+      "plan": "imperfect",
+      "loss": "alt_a",
+      "value_max_abs": 0.14336376962316866,
+      "gradient_max_abs": 4.739129661080946,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.040817542172943866,
+        "atom": 0.039772853904919137,
+        "bond": 0.07714541528553492,
+        "adjacency": 0.01638437676784482,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 7,
+      "padded": false,
+      "exclude_self_loops": true,
+      "plan": "imperfect",
+      "loss": "alt_b",
+      "value_max_abs": 0.21439199295944178,
+      "gradient_max_abs": 1.7556278373527605,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.1467619047023656,
+        "atom": 2.220446049250313e-16,
+        "bond": 0.01475742837863861,
+        "adjacency": 0.11749456141997305,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 7,
+      "padded": false,
+      "exclude_self_loops": true,
+      "plan": "imperfect",
+      "loss": "alt_a_prime",
+      "value_max_abs": 0.8290940406512504,
+      "gradient_max_abs": 6.1334921861497875,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.022374057087784838,
+        "atom": 0.6792411462162051,
+        "bond": 0.024773357915274796,
+        "adjacency": 0.027096612873124065,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 7,
+      "padded": false,
+      "exclude_self_loops": true,
+      "plan": "imperfect",
+      "loss": "alt_b_prime",
+      "value_max_abs": 0.04070477475572343,
+      "gradient_max_abs": 0.11778693952949246,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.014645117637954619,
+        "atom": 0.022676711289635332,
+        "bond": 0.005294737999215093,
+        "adjacency": 0.007526749277621758,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 7,
+      "padded": true,
+      "exclude_self_loops": false,
+      "plan": "identity",
+      "loss": "alt_a",
+      "value_max_abs": 4.440892098500626e-16,
+      "gradient_max_abs": 23.532242287131613,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 0.0,
+        "bond": 0.0,
+        "adjacency": 2.220446049250313e-16,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 7,
+      "padded": true,
+      "exclude_self_loops": false,
+      "plan": "identity",
+      "loss": "alt_b",
+      "value_max_abs": 4.440892098500626e-16,
+      "gradient_max_abs": 47.52159688357754,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 0.0,
+        "bond": 0.0,
+        "adjacency": 2.220446049250313e-16,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 7,
+      "padded": true,
+      "exclude_self_loops": false,
+      "plan": "identity",
+      "loss": "alt_a_prime",
+      "value_max_abs": 4.440892098500626e-16,
+      "gradient_max_abs": 24.442143407664275,
+      "finite": true,
+      "component_differences": {
+        "presence": 2.220446049250313e-16,
+        "atom": 2.220446049250313e-16,
+        "bond": 0.0,
+        "adjacency": 2.220446049250313e-16,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 7,
+      "padded": true,
+      "exclude_self_loops": false,
+      "plan": "identity",
+      "loss": "alt_b_prime",
+      "value_max_abs": 4.440892098500626e-16,
+      "gradient_max_abs": 0.8519045461231348,
+      "finite": true,
+      "component_differences": {
+        "presence": 2.220446049250313e-16,
+        "atom": 2.220446049250313e-16,
+        "bond": 0.0,
+        "adjacency": 2.220446049250313e-16,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 7,
+      "padded": true,
+      "exclude_self_loops": false,
+      "plan": "permutation",
+      "loss": "alt_a",
+      "value_max_abs": 0.0,
+      "gradient_max_abs": 23.489140097455273,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 0.0,
+        "bond": 0.0,
+        "adjacency": 2.220446049250313e-16,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 7,
+      "padded": true,
+      "exclude_self_loops": false,
+      "plan": "permutation",
+      "loss": "alt_b",
+      "value_max_abs": 0.0,
+      "gradient_max_abs": 47.60720306336603,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 0.0,
+        "bond": 0.0,
+        "adjacency": 2.220446049250313e-16,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 7,
+      "padded": true,
+      "exclude_self_loops": false,
+      "plan": "permutation",
+      "loss": "alt_a_prime",
+      "value_max_abs": 8.881784197001252e-16,
+      "gradient_max_abs": 24.543160961301126,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 4.440892098500626e-16,
+        "bond": 0.0,
+        "adjacency": 2.220446049250313e-16,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 7,
+      "padded": true,
+      "exclude_self_loops": false,
+      "plan": "permutation",
+      "loss": "alt_b_prime",
+      "value_max_abs": 8.881784197001252e-16,
+      "gradient_max_abs": 0.912433058608008,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 2.220446049250313e-16,
+        "bond": 0.0,
+        "adjacency": 1.1102230246251565e-16,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 7,
+      "padded": true,
+      "exclude_self_loops": false,
+      "plan": "bistochastic",
+      "loss": "alt_a",
+      "value_max_abs": 0.47268676135794196,
+      "gradient_max_abs": 4.987565040361074,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.16376884339214848,
+        "atom": 0.16916923984922594,
+        "bond": 0.06330155538864068,
+        "adjacency": 0.04570766771910448,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 7,
+      "padded": true,
+      "exclude_self_loops": false,
+      "plan": "bistochastic",
+      "loss": "alt_b",
+      "value_max_abs": 0.5102033995124637,
+      "gradient_max_abs": 2.6548353466902515,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 0.3913508206864633,
+        "bond": 0.05541880125647802,
+        "adjacency": 0.1358272836870315,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 7,
+      "padded": true,
+      "exclude_self_loops": false,
+      "plan": "bistochastic",
+      "loss": "alt_a_prime",
+      "value_max_abs": 0.2708501814678219,
+      "gradient_max_abs": 5.943934649272169,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 0.25107777295408074,
+        "bond": 0.06330155538864057,
+        "adjacency": 0.04570766771910448,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 7,
+      "padded": true,
+      "exclude_self_loops": false,
+      "plan": "bistochastic",
+      "loss": "alt_b_prime",
+      "value_max_abs": 0.12570418050956134,
+      "gradient_max_abs": 0.2021139872264555,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.005153672205724158,
+        "atom": 0.10233081358163432,
+        "bond": 0.004363718443405773,
+        "adjacency": 0.006717351582519293,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 7,
+      "padded": true,
+      "exclude_self_loops": false,
+      "plan": "imperfect",
+      "loss": "alt_a",
+      "value_max_abs": 0.1516591118170285,
+      "gradient_max_abs": 3.8886345026038525,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.040817542172943866,
+        "atom": 0.0440621016248115,
+        "bond": 0.17973528583173604,
+        "adjacency": 0.07394677196945751,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 7,
+      "padded": true,
+      "exclude_self_loops": false,
+      "plan": "imperfect",
+      "loss": "alt_b",
+      "value_max_abs": 0.2860961411251641,
+      "gradient_max_abs": 1.7859150145623692,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.1467619047023654,
+        "atom": 0.33264819758349384,
+        "bond": 0.09561689027090836,
+        "adjacency": 0.2697357941640631,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 7,
+      "padded": true,
+      "exclude_self_loops": false,
+      "plan": "imperfect",
+      "loss": "alt_a_prime",
+      "value_max_abs": 0.14205149198708833,
+      "gradient_max_abs": 6.9690302245875095,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.007414006133790063,
+        "atom": 0.06719975135028955,
+        "bond": 0.007304922266337721,
+        "adjacency": 0.01735082023414347,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 7,
+      "padded": true,
+      "exclude_self_loops": false,
+      "plan": "imperfect",
+      "loss": "alt_b_prime",
+      "value_max_abs": 0.06318680990534054,
+      "gradient_max_abs": 0.1868579432319592,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.011242925143646554,
+        "atom": 0.0729815103489111,
+        "bond": 0.010632921616957836,
+        "adjacency": 0.011145803832161016,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 7,
+      "padded": true,
+      "exclude_self_loops": true,
+      "plan": "identity",
+      "loss": "alt_a",
+      "value_max_abs": 0.0,
+      "gradient_max_abs": 21.04338229984882,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 0.0,
+        "bond": 0.0,
+        "adjacency": 0.0,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 7,
+      "padded": true,
+      "exclude_self_loops": true,
+      "plan": "identity",
+      "loss": "alt_b",
+      "value_max_abs": 0.0,
+      "gradient_max_abs": 41.41998574860665,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 0.0,
+        "bond": 0.0,
+        "adjacency": 0.0,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 7,
+      "padded": true,
+      "exclude_self_loops": true,
+      "plan": "identity",
+      "loss": "alt_a_prime",
+      "value_max_abs": 4.440892098500626e-16,
+      "gradient_max_abs": 22.734998065114315,
+      "finite": true,
+      "component_differences": {
+        "presence": 2.220446049250313e-16,
+        "atom": 2.220446049250313e-16,
+        "bond": 0.0,
+        "adjacency": 0.0,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 7,
+      "padded": true,
+      "exclude_self_loops": true,
+      "plan": "identity",
+      "loss": "alt_b_prime",
+      "value_max_abs": 4.440892098500626e-16,
+      "gradient_max_abs": 0.8552985251915035,
+      "finite": true,
+      "component_differences": {
+        "presence": 2.220446049250313e-16,
+        "atom": 2.220446049250313e-16,
+        "bond": 0.0,
+        "adjacency": 0.0,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 7,
+      "padded": true,
+      "exclude_self_loops": true,
+      "plan": "permutation",
+      "loss": "alt_a",
+      "value_max_abs": 0.08581129357933293,
+      "gradient_max_abs": 21.043148243825943,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 0.0,
+        "bond": 0.167898220076256,
+        "adjacency": 0.1499238670398908,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 7,
+      "padded": true,
+      "exclude_self_loops": true,
+      "plan": "permutation",
+      "loss": "alt_b",
+      "value_max_abs": 0.0,
+      "gradient_max_abs": 41.44879881347494,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 0.0,
+        "bond": 0.0,
+        "adjacency": 1.1102230246251565e-16,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 7,
+      "padded": true,
+      "exclude_self_loops": true,
+      "plan": "permutation",
+      "loss": "alt_a_prime",
+      "value_max_abs": 0.08581129357933204,
+      "gradient_max_abs": 22.833182167465356,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 4.440892098500626e-16,
+        "bond": 0.167898220076256,
+        "adjacency": 0.1499238670398907,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 7,
+      "padded": true,
+      "exclude_self_loops": true,
+      "plan": "permutation",
+      "loss": "alt_b_prime",
+      "value_max_abs": 8.881784197001252e-16,
+      "gradient_max_abs": 0.8946144384412341,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 2.220446049250313e-16,
+        "bond": 0.0,
+        "adjacency": 1.1102230246251565e-16,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 7,
+      "padded": true,
+      "exclude_self_loops": true,
+      "plan": "bistochastic",
+      "loss": "alt_a",
+      "value_max_abs": 0.47447692825049437,
+      "gradient_max_abs": 4.981991576753986,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.16376884339214848,
+        "atom": 0.16916923984922594,
+        "bond": 0.055224915634026484,
+        "adjacency": 0.021125781268534594,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 7,
+      "padded": true,
+      "exclude_self_loops": true,
+      "plan": "bistochastic",
+      "loss": "alt_b",
+      "value_max_abs": 0.5167003257840181,
+      "gradient_max_abs": 2.644067973409496,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 0.3913508206864633,
+        "bond": 0.0474719002013585,
+        "adjacency": 0.14432189108437382,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 7,
+      "padded": true,
+      "exclude_self_loops": true,
+      "plan": "bistochastic",
+      "loss": "alt_a_prime",
+      "value_max_abs": 0.26906001457526907,
+      "gradient_max_abs": 5.952493164503081,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 0.25107777295408074,
+        "bond": 0.055224915634026484,
+        "adjacency": 0.021125781268534594,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 7,
+      "padded": true,
+      "exclude_self_loops": true,
+      "plan": "bistochastic",
+      "loss": "alt_b_prime",
+      "value_max_abs": 0.12634154743950843,
+      "gradient_max_abs": 0.21169534507138338,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.005153672205724158,
+        "atom": 0.10233081358163432,
+        "bond": 0.004764018046801155,
+        "adjacency": 0.009675357457404887,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 7,
+      "padded": true,
+      "exclude_self_loops": true,
+      "plan": "imperfect",
+      "loss": "alt_a",
+      "value_max_abs": 0.14409216777658695,
+      "gradient_max_abs": 3.8817309312203387,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.040817542172943866,
+        "atom": 0.0440621016248115,
+        "bond": 0.14219765387526612,
+        "adjacency": 0.04210592892393625,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 7,
+      "padded": true,
+      "exclude_self_loops": true,
+      "plan": "imperfect",
+      "loss": "alt_b",
+      "value_max_abs": 0.2970411553453549,
+      "gradient_max_abs": 1.773875552852291,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.1467619047023654,
+        "atom": 0.33264819758349384,
+        "bond": 0.07551024263506767,
+        "adjacency": 0.2702576222525744,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 7,
+      "padded": true,
+      "exclude_self_loops": true,
+      "plan": "imperfect",
+      "loss": "alt_a_prime",
+      "value_max_abs": 0.13905653167710508,
+      "gradient_max_abs": 6.978436613218249,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.007414006133790063,
+        "atom": 0.06719975135028955,
+        "bond": 0.0074737721497584175,
+        "adjacency": 0.007216176360091475,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 7,
+      "padded": true,
+      "exclude_self_loops": true,
+      "plan": "imperfect",
+      "loss": "alt_b_prime",
+      "value_max_abs": 0.06488775297929594,
+      "gradient_max_abs": 0.1868579432319592,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.011242925143646554,
+        "atom": 0.0729815103489111,
+        "bond": 0.006528154557768007,
+        "adjacency": 0.011709191568644028,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 83,
+      "padded": false,
+      "exclude_self_loops": false,
+      "plan": "identity",
+      "loss": "alt_a",
+      "value_max_abs": 4.440892098500626e-16,
+      "gradient_max_abs": 24.21454640813538,
+      "finite": true,
+      "component_differences": {
+        "presence": 1.1102230246251565e-16,
+        "atom": 2.220446049250313e-16,
+        "bond": 0.0,
+        "adjacency": 0.0,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 83,
+      "padded": false,
+      "exclude_self_loops": false,
+      "plan": "identity",
+      "loss": "alt_b",
+      "value_max_abs": 4.440892098500626e-16,
+      "gradient_max_abs": 48.145004460625614,
+      "finite": true,
+      "component_differences": {
+        "presence": 1.1102230246251565e-16,
+        "atom": 2.220446049250313e-16,
+        "bond": 0.0,
+        "adjacency": 0.0,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 83,
+      "padded": false,
+      "exclude_self_loops": false,
+      "plan": "identity",
+      "loss": "alt_a_prime",
+      "value_max_abs": 4.440892098500626e-16,
+      "gradient_max_abs": 23.86092225768358,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 2.220446049250313e-16,
+        "bond": 0.0,
+        "adjacency": 0.0,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 83,
+      "padded": false,
+      "exclude_self_loops": false,
+      "plan": "identity",
+      "loss": "alt_b_prime",
+      "value_max_abs": 4.440892098500626e-16,
+      "gradient_max_abs": 0.742670173265717,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 2.220446049250313e-16,
+        "bond": 0.0,
+        "adjacency": 0.0,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 83,
+      "padded": false,
+      "exclude_self_loops": false,
+      "plan": "permutation",
+      "loss": "alt_a",
+      "value_max_abs": 0.0,
+      "gradient_max_abs": 24.20491857894823,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 0.0,
+        "bond": 2.220446049250313e-16,
+        "adjacency": 0.0,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 83,
+      "padded": false,
+      "exclude_self_loops": false,
+      "plan": "permutation",
+      "loss": "alt_b",
+      "value_max_abs": 0.0,
+      "gradient_max_abs": 48.121405231806925,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 0.0,
+        "bond": 0.0,
+        "adjacency": 1.1102230246251565e-16,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 83,
+      "padded": false,
+      "exclude_self_loops": false,
+      "plan": "permutation",
+      "loss": "alt_a_prime",
+      "value_max_abs": 0.0,
+      "gradient_max_abs": 23.819915870407453,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 2.220446049250313e-16,
+        "bond": 0.0,
+        "adjacency": 0.0,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 83,
+      "padded": false,
+      "exclude_self_loops": false,
+      "plan": "permutation",
+      "loss": "alt_b_prime",
+      "value_max_abs": 0.0,
+      "gradient_max_abs": 0.7059662703182126,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 2.220446049250313e-16,
+        "bond": 0.0,
+        "adjacency": 1.1102230246251565e-16,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 83,
+      "padded": false,
+      "exclude_self_loops": false,
+      "plan": "bistochastic",
+      "loss": "alt_a",
+      "value_max_abs": 0.1516854893490165,
+      "gradient_max_abs": 10.644885184696262,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.04152478912765556,
+        "atom": 0.10344779895713674,
+        "bond": 0.0043247930225757125,
+        "adjacency": 0.008568079274654528,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 83,
+      "padded": false,
+      "exclude_self_loops": false,
+      "plan": "bistochastic",
+      "loss": "alt_b",
+      "value_max_abs": 4.440892098500626e-16,
+      "gradient_max_abs": 5.461945634775017,
+      "finite": true,
+      "component_differences": {
+        "presence": 1.1102230246251565e-16,
+        "atom": 0.0,
+        "bond": 0.0,
+        "adjacency": 5.551115123125783e-17,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 83,
+      "padded": false,
+      "exclude_self_loops": false,
+      "plan": "bistochastic",
+      "loss": "alt_a_prime",
+      "value_max_abs": 0.9767953400008895,
+      "gradient_max_abs": 10.314819961706766,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 0.7696140691156763,
+        "bond": 0.004324793022575768,
+        "adjacency": 0.0085680792746545,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 83,
+      "padded": false,
+      "exclude_self_loops": false,
+      "plan": "bistochastic",
+      "loss": "alt_b_prime",
+      "value_max_abs": 0.03581281049244023,
+      "gradient_max_abs": 0.07455530995805124,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.002354328204883238,
+        "atom": 0.0008532462133135077,
+        "bond": 0.00023787086389104317,
+        "adjacency": 0.0028461771587056095,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 83,
+      "padded": false,
+      "exclude_self_loops": false,
+      "plan": "imperfect",
+      "loss": "alt_a",
+      "value_max_abs": 0.15155306230665566,
+      "gradient_max_abs": 11.20179802824032,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.06685794655148003,
+        "atom": 0.1122082853333155,
+        "bond": 0.11421477836711791,
+        "adjacency": 0.06923359520929948,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 83,
+      "padded": false,
+      "exclude_self_loops": false,
+      "plan": "imperfect",
+      "loss": "alt_b",
+      "value_max_abs": 0.14855888576463894,
+      "gradient_max_abs": 4.59079891050637,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.11690299716975217,
+        "atom": 2.220446049250313e-16,
+        "bond": 0.024618898401724043,
+        "adjacency": 0.08244171696978647,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 83,
+      "padded": false,
+      "exclude_self_loops": false,
+      "plan": "imperfect",
+      "loss": "alt_a_prime",
+      "value_max_abs": 0.7877303311100035,
+      "gradient_max_abs": 15.47896628710264,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.00906067220250295,
+        "atom": 0.5524814264632303,
+        "bond": 0.013332328610720257,
+        "adjacency": 0.01322283682514691,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 83,
+      "padded": false,
+      "exclude_self_loops": false,
+      "plan": "imperfect",
+      "loss": "alt_b_prime",
+      "value_max_abs": 0.04502693724972673,
+      "gradient_max_abs": 0.09150601691929666,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0018139174929969748,
+        "atom": 0.0023298045753075147,
+        "bond": 0.00869167187360409,
+        "adjacency": 0.001658492466016015,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 83,
+      "padded": false,
+      "exclude_self_loops": true,
+      "plan": "identity",
+      "loss": "alt_a",
+      "value_max_abs": 4.440892098500626e-16,
+      "gradient_max_abs": 21.650989194853857,
+      "finite": true,
+      "component_differences": {
+        "presence": 1.1102230246251565e-16,
+        "atom": 2.220446049250313e-16,
+        "bond": 0.0,
+        "adjacency": 1.1102230246251565e-16,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 83,
+      "padded": false,
+      "exclude_self_loops": true,
+      "plan": "identity",
+      "loss": "alt_b",
+      "value_max_abs": 4.440892098500626e-16,
+      "gradient_max_abs": 43.02018956110812,
+      "finite": true,
+      "component_differences": {
+        "presence": 1.1102230246251565e-16,
+        "atom": 2.220446049250313e-16,
+        "bond": 0.0,
+        "adjacency": 1.1102230246251565e-16,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 83,
+      "padded": false,
+      "exclude_self_loops": true,
+      "plan": "identity",
+      "loss": "alt_a_prime",
+      "value_max_abs": 4.440892098500626e-16,
+      "gradient_max_abs": 21.275273118789023,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 2.220446049250313e-16,
+        "bond": 0.0,
+        "adjacency": 1.1102230246251565e-16,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 83,
+      "padded": false,
+      "exclude_self_loops": true,
+      "plan": "identity",
+      "loss": "alt_b_prime",
+      "value_max_abs": 4.440892098500626e-16,
+      "gradient_max_abs": 0.49750305551223273,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 2.220446049250313e-16,
+        "bond": 0.0,
+        "adjacency": 1.1102230246251565e-16,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 83,
+      "padded": false,
+      "exclude_self_loops": true,
+      "plan": "permutation",
+      "loss": "alt_a",
+      "value_max_abs": 0.02564782902625362,
+      "gradient_max_abs": 21.64110904259673,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 0.0,
+        "bond": 0.013259648953840353,
+        "adjacency": 0.0060931154003988075,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 83,
+      "padded": false,
+      "exclude_self_loops": true,
+      "plan": "permutation",
+      "loss": "alt_b",
+      "value_max_abs": 0.0,
+      "gradient_max_abs": 43.00157966469371,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 0.0,
+        "bond": 0.0,
+        "adjacency": 1.1102230246251565e-16,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 83,
+      "padded": false,
+      "exclude_self_loops": true,
+      "plan": "permutation",
+      "loss": "alt_a_prime",
+      "value_max_abs": 0.02564782902625362,
+      "gradient_max_abs": 21.255323467702862,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 2.220446049250313e-16,
+        "bond": 0.013259648953840575,
+        "adjacency": 0.0060931154003988075,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 83,
+      "padded": false,
+      "exclude_self_loops": true,
+      "plan": "permutation",
+      "loss": "alt_b_prime",
+      "value_max_abs": 0.0,
+      "gradient_max_abs": 0.6353278370941441,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 2.220446049250313e-16,
+        "bond": 0.0,
+        "adjacency": 1.1102230246251565e-16,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 83,
+      "padded": false,
+      "exclude_self_loops": true,
+      "plan": "bistochastic",
+      "loss": "alt_a",
+      "value_max_abs": 0.16126134047413032,
+      "gradient_max_abs": 10.798616996423931,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.04152478912765556,
+        "atom": 0.10344779895713674,
+        "bond": 0.010210360445623345,
+        "adjacency": 0.0035541072218445713,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 83,
+      "padded": false,
+      "exclude_self_loops": true,
+      "plan": "bistochastic",
+      "loss": "alt_b",
+      "value_max_abs": 4.440892098500626e-16,
+      "gradient_max_abs": 0.1484418714897902,
+      "finite": true,
+      "component_differences": {
+        "presence": 1.1102230246251565e-16,
+        "atom": 0.0,
+        "bond": 2.7755575615628914e-17,
+        "adjacency": 1.3877787807814457e-17,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 83,
+      "padded": false,
+      "exclude_self_loops": true,
+      "plan": "bistochastic",
+      "loss": "alt_a_prime",
+      "value_max_abs": 0.9785515409176002,
+      "gradient_max_abs": 10.461966534407008,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 0.7696140691156763,
+        "bond": 0.010210360445623345,
+        "adjacency": 0.0035541072218445713,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 83,
+      "padded": false,
+      "exclude_self_loops": true,
+      "plan": "bistochastic",
+      "loss": "alt_b_prime",
+      "value_max_abs": 0.0359392715961091,
+      "gradient_max_abs": 0.07523545950248467,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.002354328204883238,
+        "atom": 0.0008532462133135077,
+        "bond": 0.005558423176736271,
+        "adjacency": 0.006051959927873107,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 83,
+      "padded": false,
+      "exclude_self_loops": true,
+      "plan": "imperfect",
+      "loss": "alt_a",
+      "value_max_abs": 0.1629626379200393,
+      "gradient_max_abs": 8.973717513668674,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.06685794655148003,
+        "atom": 0.1122082853333155,
+        "bond": 0.09828866712350115,
+        "adjacency": 0.05607407138963744,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 83,
+      "padded": false,
+      "exclude_self_loops": true,
+      "plan": "imperfect",
+      "loss": "alt_b",
+      "value_max_abs": 0.1359281000069068,
+      "gradient_max_abs": 0.17453315707483757,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.11690299716975217,
+        "atom": 2.220446049250313e-16,
+        "bond": 0.020709937837736475,
+        "adjacency": 0.06662377457912028,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 83,
+      "padded": false,
+      "exclude_self_loops": true,
+      "plan": "imperfect",
+      "loss": "alt_a_prime",
+      "value_max_abs": 0.7916891011096439,
+      "gradient_max_abs": 12.321452207107031,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.00906067220250295,
+        "atom": 0.5524814264632303,
+        "bond": 0.00018042888016572833,
+        "adjacency": 0.011817756218003295,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 83,
+      "padded": false,
+      "exclude_self_loops": true,
+      "plan": "imperfect",
+      "loss": "alt_b_prime",
+      "value_max_abs": 0.04589801780086189,
+      "gradient_max_abs": 0.09164017628487633,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0018139174929969748,
+        "atom": 0.0023298045753075147,
+        "bond": 0.006672483909017646,
+        "adjacency": 0.0019195216082069644,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 83,
+      "padded": true,
+      "exclude_self_loops": false,
+      "plan": "identity",
+      "loss": "alt_a",
+      "value_max_abs": 4.440892098500626e-16,
+      "gradient_max_abs": 37.180212141741485,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 0.0,
+        "bond": 0.0,
+        "adjacency": 1.1102230246251565e-16,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 83,
+      "padded": true,
+      "exclude_self_loops": false,
+      "plan": "identity",
+      "loss": "alt_b",
+      "value_max_abs": 4.440892098500626e-16,
+      "gradient_max_abs": 73.99179939701105,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 0.0,
+        "bond": 0.0,
+        "adjacency": 1.1102230246251565e-16,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 83,
+      "padded": true,
+      "exclude_self_loops": false,
+      "plan": "identity",
+      "loss": "alt_a_prime",
+      "value_max_abs": 0.0,
+      "gradient_max_abs": 30.512544873999044,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 0.0,
+        "bond": 0.0,
+        "adjacency": 1.1102230246251565e-16,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 83,
+      "padded": true,
+      "exclude_self_loops": false,
+      "plan": "identity",
+      "loss": "alt_b_prime",
+      "value_max_abs": 0.0,
+      "gradient_max_abs": 0.8384160383267609,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 0.0,
+        "bond": 0.0,
+        "adjacency": 1.1102230246251565e-16,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 83,
+      "padded": true,
+      "exclude_self_loops": false,
+      "plan": "permutation",
+      "loss": "alt_a",
+      "value_max_abs": 0.0,
+      "gradient_max_abs": 37.173663276174544,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 0.0,
+        "bond": 2.220446049250313e-16,
+        "adjacency": 2.220446049250313e-16,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 83,
+      "padded": true,
+      "exclude_self_loops": false,
+      "plan": "permutation",
+      "loss": "alt_b",
+      "value_max_abs": 0.0,
+      "gradient_max_abs": 73.93403318711013,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 0.0,
+        "bond": 0.0,
+        "adjacency": 0.0,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 83,
+      "padded": true,
+      "exclude_self_loops": false,
+      "plan": "permutation",
+      "loss": "alt_a_prime",
+      "value_max_abs": 0.0,
+      "gradient_max_abs": 30.48393823839985,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 0.0,
+        "bond": 0.0,
+        "adjacency": 1.1102230246251565e-16,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 83,
+      "padded": true,
+      "exclude_self_loops": false,
+      "plan": "permutation",
+      "loss": "alt_b_prime",
+      "value_max_abs": 0.0,
+      "gradient_max_abs": 1.2446631188336268,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 0.0,
+        "bond": 2.220446049250313e-16,
+        "adjacency": 1.1102230246251565e-16,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 83,
+      "padded": true,
+      "exclude_self_loops": false,
+      "plan": "bistochastic",
+      "loss": "alt_a",
+      "value_max_abs": 0.15444911354921986,
+      "gradient_max_abs": 14.83518734886155,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.04152478912765534,
+        "atom": 0.09886846712953923,
+        "bond": 0.0689065182278632,
+        "adjacency": 0.08355296655868916,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 83,
+      "padded": true,
+      "exclude_self_loops": false,
+      "plan": "bistochastic",
+      "loss": "alt_b",
+      "value_max_abs": 0.3929518931499474,
+      "gradient_max_abs": 0.4685475489914268,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 0.37599493895697944,
+        "bond": 0.05648078655807265,
+        "adjacency": 0.27095877016695286,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 83,
+      "padded": true,
+      "exclude_self_loops": false,
+      "plan": "bistochastic",
+      "loss": "alt_a_prime",
+      "value_max_abs": 0.43312728161451863,
+      "gradient_max_abs": 14.416552603667489,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 0.2583380683168206,
+        "bond": 0.0689065182278632,
+        "adjacency": 0.08355296655868916,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 83,
+      "padded": true,
+      "exclude_self_loops": false,
+      "plan": "bistochastic",
+      "loss": "alt_b_prime",
+      "value_max_abs": 0.09533357047542745,
+      "gradient_max_abs": 0.12281863228348938,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0010501572281159666,
+        "atom": 0.02581904817988967,
+        "bond": 0.016127488456109118,
+        "adjacency": 0.014140685700462452,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 83,
+      "padded": true,
+      "exclude_self_loops": false,
+      "plan": "imperfect",
+      "loss": "alt_a",
+      "value_max_abs": 0.17003805104780412,
+      "gradient_max_abs": 12.348600407679442,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.06685794655147992,
+        "atom": 0.11539573309480611,
+        "bond": 0.176712221301221,
+        "adjacency": 0.02691524170717685,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 83,
+      "padded": true,
+      "exclude_self_loops": false,
+      "plan": "imperfect",
+      "loss": "alt_b",
+      "value_max_abs": 0.1455539695864978,
+      "gradient_max_abs": 0.47417976631088443,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.11690299716975228,
+        "atom": 0.31959569811343225,
+        "bond": 0.11613271576344852,
+        "adjacency": 0.4144467839571178,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 83,
+      "padded": true,
+      "exclude_self_loops": false,
+      "plan": "imperfect",
+      "loss": "alt_a_prime",
+      "value_max_abs": 0.31915801074689654,
+      "gradient_max_abs": 17.003857798742544,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.005672144507657184,
+        "atom": 0.08844849247924547,
+        "bond": 0.004943367063736659,
+        "adjacency": 0.14379932758623054,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 83,
+      "padded": true,
+      "exclude_self_loops": false,
+      "plan": "imperfect",
+      "loss": "alt_b_prime",
+      "value_max_abs": 0.06582200641930225,
+      "gradient_max_abs": 0.164287371015586,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0017979597548437587,
+        "atom": 0.013794431723112677,
+        "bond": 0.00014165525660381206,
+        "adjacency": 0.008739083045269824,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 83,
+      "padded": true,
+      "exclude_self_loops": true,
+      "plan": "identity",
+      "loss": "alt_a",
+      "value_max_abs": 4.440892098500626e-16,
+      "gradient_max_abs": 30.072904837033672,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 0.0,
+        "bond": 0.0,
+        "adjacency": 0.0,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 83,
+      "padded": true,
+      "exclude_self_loops": true,
+      "plan": "identity",
+      "loss": "alt_b",
+      "value_max_abs": 4.440892098500626e-16,
+      "gradient_max_abs": 59.78643508960846,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 0.0,
+        "bond": 0.0,
+        "adjacency": 0.0,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 83,
+      "padded": true,
+      "exclude_self_loops": true,
+      "plan": "identity",
+      "loss": "alt_a_prime",
+      "value_max_abs": 0.0,
+      "gradient_max_abs": 23.374103744956596,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 0.0,
+        "bond": 0.0,
+        "adjacency": 0.0,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 83,
+      "padded": true,
+      "exclude_self_loops": true,
+      "plan": "identity",
+      "loss": "alt_b_prime",
+      "value_max_abs": 0.0,
+      "gradient_max_abs": 0.8602672735442811,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 0.0,
+        "bond": 0.0,
+        "adjacency": 0.0,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 83,
+      "padded": true,
+      "exclude_self_loops": true,
+      "plan": "permutation",
+      "loss": "alt_a",
+      "value_max_abs": 0.061884541933720616,
+      "gradient_max_abs": 30.066632933050094,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 0.0,
+        "bond": 0.1252384776384634,
+        "adjacency": 0.02972212895154669,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 83,
+      "padded": true,
+      "exclude_self_loops": true,
+      "plan": "permutation",
+      "loss": "alt_b",
+      "value_max_abs": 0.0,
+      "gradient_max_abs": 59.72557237226274,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 0.0,
+        "bond": 0.0,
+        "adjacency": 0.0,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 83,
+      "padded": true,
+      "exclude_self_loops": true,
+      "plan": "permutation",
+      "loss": "alt_a_prime",
+      "value_max_abs": 0.06188454193372017,
+      "gradient_max_abs": 23.363305744140547,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 0.0,
+        "bond": 0.12523847763846352,
+        "adjacency": 0.0297221289515468,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 83,
+      "padded": true,
+      "exclude_self_loops": true,
+      "plan": "permutation",
+      "loss": "alt_b_prime",
+      "value_max_abs": 4.440892098500626e-16,
+      "gradient_max_abs": 1.0484452487667693,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 0.0,
+        "bond": 0.0,
+        "adjacency": 0.0,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 83,
+      "padded": true,
+      "exclude_self_loops": true,
+      "plan": "bistochastic",
+      "loss": "alt_a",
+      "value_max_abs": 0.17576505692037303,
+      "gradient_max_abs": 7.262914041936975,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.04152478912765534,
+        "atom": 0.09886846712953923,
+        "bond": 0.06840014314569653,
+        "adjacency": 0.05041051917687342,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 83,
+      "padded": true,
+      "exclude_self_loops": true,
+      "plan": "bistochastic",
+      "loss": "alt_b",
+      "value_max_abs": 0.43056482178815125,
+      "gradient_max_abs": 0.44270946375428966,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 0.37599493895697944,
+        "bond": 0.02986238756044346,
+        "adjacency": 0.21870758291971443,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 83,
+      "padded": true,
+      "exclude_self_loops": true,
+      "plan": "bistochastic",
+      "loss": "alt_a_prime",
+      "value_max_abs": 0.4413887960658114,
+      "gradient_max_abs": 6.830411682332858,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 0.2583380683168206,
+        "bond": 0.06840014314569653,
+        "adjacency": 0.05041051917687342,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 83,
+      "padded": true,
+      "exclude_self_loops": true,
+      "plan": "bistochastic",
+      "loss": "alt_b_prime",
+      "value_max_abs": 0.10605031480553162,
+      "gradient_max_abs": 0.1284284240142811,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0010501572281159666,
+        "atom": 0.02581904817988967,
+        "bond": 0.0021015873640283234,
+        "adjacency": 0.029460861816388295,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 83,
+      "padded": true,
+      "exclude_self_loops": true,
+      "plan": "imperfect",
+      "loss": "alt_a",
+      "value_max_abs": 0.182059821015498,
+      "gradient_max_abs": 5.970484752890918,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.06685794655147992,
+        "atom": 0.11539573309480611,
+        "bond": 0.14926153452535895,
+        "adjacency": 0.013496353372331682,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 83,
+      "padded": true,
+      "exclude_self_loops": true,
+      "plan": "imperfect",
+      "loss": "alt_b",
+      "value_max_abs": 0.20269163188329253,
+      "gradient_max_abs": 0.43871375843898475,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.11690299716975228,
+        "atom": 0.31959569811343225,
+        "bond": 0.07761968783151052,
+        "adjacency": 0.3230775118117555,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 83,
+      "padded": true,
+      "exclude_self_loops": true,
+      "plan": "imperfect",
+      "loss": "alt_a_prime",
+      "value_max_abs": 0.32203768000521604,
+      "gradient_max_abs": 8.08119690469865,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.005672144507657184,
+        "atom": 0.08844849247924547,
+        "bond": 0.015458574099315947,
+        "adjacency": 0.10654163752209281,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 83,
+      "padded": true,
+      "exclude_self_loops": true,
+      "plan": "imperfect",
+      "loss": "alt_b_prime",
+      "value_max_abs": 0.0707802583717525,
+      "gradient_max_abs": 0.1604734088201319,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0017979597548437587,
+        "atom": 0.013794431723112677,
+        "bond": 0.005425560248739414,
+        "adjacency": 0.00798526655639975,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 211,
+      "padded": false,
+      "exclude_self_loops": false,
+      "plan": "identity",
+      "loss": "alt_a",
+      "value_max_abs": 8.881784197001252e-16,
+      "gradient_max_abs": 21.40232949409075,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 4.440892098500626e-16,
+        "bond": 2.220446049250313e-16,
+        "adjacency": 0.0,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 211,
+      "padded": false,
+      "exclude_self_loops": false,
+      "plan": "identity",
+      "loss": "alt_b",
+      "value_max_abs": 8.881784197001252e-16,
+      "gradient_max_abs": 42.63153293997138,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 4.440892098500626e-16,
+        "bond": 2.220446049250313e-16,
+        "adjacency": 0.0,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 211,
+      "padded": false,
+      "exclude_self_loops": false,
+      "plan": "identity",
+      "loss": "alt_a_prime",
+      "value_max_abs": 0.0,
+      "gradient_max_abs": 21.237416892749422,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 0.0,
+        "bond": 2.220446049250313e-16,
+        "adjacency": 0.0,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 211,
+      "padded": false,
+      "exclude_self_loops": false,
+      "plan": "identity",
+      "loss": "alt_b_prime",
+      "value_max_abs": 0.0,
+      "gradient_max_abs": 3.452227048832686,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 0.0,
+        "bond": 2.220446049250313e-16,
+        "adjacency": 0.0,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 211,
+      "padded": false,
+      "exclude_self_loops": false,
+      "plan": "permutation",
+      "loss": "alt_a",
+      "value_max_abs": 4.440892098500626e-16,
+      "gradient_max_abs": 21.40881482848839,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 2.220446049250313e-16,
+        "bond": 0.0,
+        "adjacency": 0.0,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 211,
+      "padded": false,
+      "exclude_self_loops": false,
+      "plan": "permutation",
+      "loss": "alt_b",
+      "value_max_abs": 4.440892098500626e-16,
+      "gradient_max_abs": 42.60115122332101,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 2.220446049250313e-16,
+        "bond": 0.0,
+        "adjacency": 1.1102230246251565e-16,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 211,
+      "padded": false,
+      "exclude_self_loops": false,
+      "plan": "permutation",
+      "loss": "alt_a_prime",
+      "value_max_abs": 4.440892098500626e-16,
+      "gradient_max_abs": 21.206645731538394,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 2.220446049250313e-16,
+        "bond": 2.220446049250313e-16,
+        "adjacency": 0.0,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 211,
+      "padded": false,
+      "exclude_self_loops": false,
+      "plan": "permutation",
+      "loss": "alt_b_prime",
+      "value_max_abs": 0.0,
+      "gradient_max_abs": 1.762557516288011,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 2.220446049250313e-16,
+        "bond": 0.0,
+        "adjacency": 0.0,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 211,
+      "padded": false,
+      "exclude_self_loops": false,
+      "plan": "bistochastic",
+      "loss": "alt_a",
+      "value_max_abs": 0.40288912939954,
+      "gradient_max_abs": 5.599652714975271,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.1851022396412243,
+        "atom": 0.21142699635245843,
+        "bond": 0.003945619190601213,
+        "adjacency": 0.011656337431217856,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 211,
+      "padded": false,
+      "exclude_self_loops": false,
+      "plan": "bistochastic",
+      "loss": "alt_b",
+      "value_max_abs": 0.0,
+      "gradient_max_abs": 4.222316905836557,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 0.0,
+        "bond": 5.551115123125783e-17,
+        "adjacency": 2.7755575615628914e-17,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 211,
+      "padded": false,
+      "exclude_self_loops": false,
+      "plan": "bistochastic",
+      "loss": "alt_a_prime",
+      "value_max_abs": 0.845608260964259,
+      "gradient_max_abs": 6.805297664767604,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 0.6375252348007445,
+        "bond": 0.003945619190601213,
+        "adjacency": 0.0116563374312178,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 211,
+      "padded": false,
+      "exclude_self_loops": false,
+      "plan": "bistochastic",
+      "loss": "alt_b_prime",
+      "value_max_abs": 0.18761525984421423,
+      "gradient_max_abs": 0.2426226585080823,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0315237945876381,
+        "atom": 0.03307737901946539,
+        "bond": 0.010769614089834345,
+        "adjacency": 0.013603236353982973,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 211,
+      "padded": false,
+      "exclude_self_loops": false,
+      "plan": "imperfect",
+      "loss": "alt_a",
+      "value_max_abs": 0.1016688132956558,
+      "gradient_max_abs": 6.98317102145652,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.06276068568919535,
+        "atom": 0.013981596880880076,
+        "bond": 0.09292990869124448,
+        "adjacency": 0.03682704649814805,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 211,
+      "padded": false,
+      "exclude_self_loops": false,
+      "plan": "imperfect",
+      "loss": "alt_b",
+      "value_max_abs": 0.20778175291375067,
+      "gradient_max_abs": 3.575722672936879,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.13286021792703828,
+        "atom": 2.220446049250313e-16,
+        "bond": 0.01304135885154234,
+        "adjacency": 0.1433275017916537,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 211,
+      "padded": false,
+      "exclude_self_loops": false,
+      "plan": "imperfect",
+      "loss": "alt_a_prime",
+      "value_max_abs": 0.5069845223603138,
+      "gradient_max_abs": 9.573716533202496,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.021691632171357833,
+        "atom": 0.409675124023295,
+        "bond": 0.002505253723160239,
+        "adjacency": 0.02566079568476967,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 211,
+      "padded": false,
+      "exclude_self_loops": false,
+      "plan": "imperfect",
+      "loss": "alt_b_prime",
+      "value_max_abs": 0.09124872572300102,
+      "gradient_max_abs": 0.19653848857938722,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.000686501558729069,
+        "atom": 0.030635861475354575,
+        "bond": 0.015042842458694805,
+        "adjacency": 0.020120096197592363,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 211,
+      "padded": false,
+      "exclude_self_loops": true,
+      "plan": "identity",
+      "loss": "alt_a",
+      "value_max_abs": 8.881784197001252e-16,
+      "gradient_max_abs": 18.86610534222777,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 4.440892098500626e-16,
+        "bond": 2.220446049250313e-16,
+        "adjacency": 0.0,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 211,
+      "padded": false,
+      "exclude_self_loops": true,
+      "plan": "identity",
+      "loss": "alt_b",
+      "value_max_abs": 8.881784197001252e-16,
+      "gradient_max_abs": 37.55268691560756,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 4.440892098500626e-16,
+        "bond": 2.220446049250313e-16,
+        "adjacency": 0.0,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 211,
+      "padded": false,
+      "exclude_self_loops": true,
+      "plan": "identity",
+      "loss": "alt_a_prime",
+      "value_max_abs": 0.0,
+      "gradient_max_abs": 18.687607382607165,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 0.0,
+        "bond": 2.220446049250313e-16,
+        "adjacency": 0.0,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 211,
+      "padded": false,
+      "exclude_self_loops": true,
+      "plan": "identity",
+      "loss": "alt_b_prime",
+      "value_max_abs": 0.0,
+      "gradient_max_abs": 3.4553743792397684,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 0.0,
+        "bond": 2.220446049250313e-16,
+        "adjacency": 0.0,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 211,
+      "padded": false,
+      "exclude_self_loops": true,
+      "plan": "permutation",
+      "loss": "alt_a",
+      "value_max_abs": 0.03418899516324991,
+      "gradient_max_abs": 18.872590676625403,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 2.220446049250313e-16,
+        "bond": 0.0433799951702315,
+        "adjacency": 0.058929182722631035,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 211,
+      "padded": false,
+      "exclude_self_loops": true,
+      "plan": "permutation",
+      "loss": "alt_b",
+      "value_max_abs": 4.440892098500626e-16,
+      "gradient_max_abs": 37.515425298689784,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 2.220446049250313e-16,
+        "bond": 0.0,
+        "adjacency": 1.1102230246251565e-16,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 211,
+      "padded": false,
+      "exclude_self_loops": true,
+      "plan": "permutation",
+      "loss": "alt_a_prime",
+      "value_max_abs": 0.03418899516324991,
+      "gradient_max_abs": 18.65679412016137,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 2.220446049250313e-16,
+        "bond": 0.0433799951702315,
+        "adjacency": 0.058929182722631035,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 211,
+      "padded": false,
+      "exclude_self_loops": true,
+      "plan": "permutation",
+      "loss": "alt_b_prime",
+      "value_max_abs": 0.0,
+      "gradient_max_abs": 1.765001363006494,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 2.220446049250313e-16,
+        "bond": 1.1102230246251565e-16,
+        "adjacency": 0.0,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 211,
+      "padded": false,
+      "exclude_self_loops": true,
+      "plan": "bistochastic",
+      "loss": "alt_a",
+      "value_max_abs": 0.4198119631264077,
+      "gradient_max_abs": 5.67191884051449,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.1851022396412243,
+        "atom": 0.21142699635245843,
+        "bond": 0.024981886359923544,
+        "adjacency": 0.00453225390499673,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 211,
+      "padded": false,
+      "exclude_self_loops": true,
+      "plan": "bistochastic",
+      "loss": "alt_b",
+      "value_max_abs": 0.0,
+      "gradient_max_abs": 0.24319932474386394,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 0.0,
+        "bond": 0.0,
+        "adjacency": 1.3877787807814457e-17,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 211,
+      "padded": false,
+      "exclude_self_loops": true,
+      "plan": "bistochastic",
+      "loss": "alt_a_prime",
+      "value_max_abs": 0.8286854272373914,
+      "gradient_max_abs": 6.8234236237877735,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 0.6375252348007445,
+        "bond": 0.024981886359923544,
+        "adjacency": 0.004532253904996758,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 211,
+      "padded": false,
+      "exclude_self_loops": true,
+      "plan": "bistochastic",
+      "loss": "alt_b_prime",
+      "value_max_abs": 0.18935267820209045,
+      "gradient_max_abs": 0.245402977439624,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0315237945876381,
+        "atom": 0.03307737901946539,
+        "bond": 0.00516584793486119,
+        "adjacency": 0.014396367320766545,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 211,
+      "padded": false,
+      "exclude_self_loops": true,
+      "plan": "imperfect",
+      "loss": "alt_a",
+      "value_max_abs": 0.10650992594769493,
+      "gradient_max_abs": 4.786004566086374,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.06276068568919535,
+        "atom": 0.013981596880880076,
+        "bond": 0.09110334287753785,
+        "adjacency": 0.04279806161986563,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 211,
+      "padded": false,
+      "exclude_self_loops": true,
+      "plan": "imperfect",
+      "loss": "alt_b",
+      "value_max_abs": 0.1987727580805254,
+      "gradient_max_abs": 0.267682385648604,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.13286021792703828,
+        "atom": 2.220446049250313e-16,
+        "bond": 0.010921956102380614,
+        "adjacency": 0.12030278425684264,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 211,
+      "padded": false,
+      "exclude_self_loops": true,
+      "plan": "imperfect",
+      "loss": "alt_a_prime",
+      "value_max_abs": 0.48955125685920864,
+      "gradient_max_abs": 6.3560912077172755,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.021691632171357833,
+        "atom": 0.409675124023295,
+        "bond": 0.01944671914460233,
+        "adjacency": 0.0038155224510470487,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 211,
+      "padded": false,
+      "exclude_self_loops": true,
+      "plan": "imperfect",
+      "loss": "alt_b_prime",
+      "value_max_abs": 0.09194494146759125,
+      "gradient_max_abs": 0.2000161269355405,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.000686501558729069,
+        "atom": 0.030635861475354575,
+        "bond": 0.011526598204436023,
+        "adjacency": 0.019527957107404736,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 211,
+      "padded": true,
+      "exclude_self_loops": false,
+      "plan": "identity",
+      "loss": "alt_a",
+      "value_max_abs": 4.440892098500626e-16,
+      "gradient_max_abs": 23.489807505176724,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 0.0,
+        "bond": 0.0,
+        "adjacency": 0.0,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 211,
+      "padded": true,
+      "exclude_self_loops": false,
+      "plan": "identity",
+      "loss": "alt_b",
+      "value_max_abs": 4.440892098500626e-16,
+      "gradient_max_abs": 47.29626545948471,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 0.0,
+        "bond": 0.0,
+        "adjacency": 0.0,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 211,
+      "padded": true,
+      "exclude_self_loops": false,
+      "plan": "identity",
+      "loss": "alt_a_prime",
+      "value_max_abs": 4.440892098500626e-16,
+      "gradient_max_abs": 24.055275004340707,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 0.0,
+        "bond": 0.0,
+        "adjacency": 0.0,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 211,
+      "padded": true,
+      "exclude_self_loops": false,
+      "plan": "identity",
+      "loss": "alt_b_prime",
+      "value_max_abs": 4.440892098500626e-16,
+      "gradient_max_abs": 4.240278506962343,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 0.0,
+        "bond": 0.0,
+        "adjacency": 0.0,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 211,
+      "padded": true,
+      "exclude_self_loops": false,
+      "plan": "permutation",
+      "loss": "alt_a",
+      "value_max_abs": 4.440892098500626e-16,
+      "gradient_max_abs": 23.45649567304743,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 0.0,
+        "bond": 0.0,
+        "adjacency": 0.0,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 211,
+      "padded": true,
+      "exclude_self_loops": false,
+      "plan": "permutation",
+      "loss": "alt_b",
+      "value_max_abs": 0.0,
+      "gradient_max_abs": 47.34199754910147,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 0.0,
+        "bond": 2.220446049250313e-16,
+        "adjacency": 0.0,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 211,
+      "padded": true,
+      "exclude_self_loops": false,
+      "plan": "permutation",
+      "loss": "alt_a_prime",
+      "value_max_abs": 4.440892098500626e-16,
+      "gradient_max_abs": 24.104311085082525,
+      "finite": true,
+      "component_differences": {
+        "presence": 2.220446049250313e-16,
+        "atom": 2.220446049250313e-16,
+        "bond": 0.0,
+        "adjacency": 0.0,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 211,
+      "padded": true,
+      "exclude_self_loops": false,
+      "plan": "permutation",
+      "loss": "alt_b_prime",
+      "value_max_abs": 4.440892098500626e-16,
+      "gradient_max_abs": 2.163479506842591,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 2.220446049250313e-16,
+        "bond": 0.0,
+        "adjacency": 0.0,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 211,
+      "padded": true,
+      "exclude_self_loops": false,
+      "plan": "bistochastic",
+      "loss": "alt_a",
+      "value_max_abs": 0.42560545968242325,
+      "gradient_max_abs": 11.242512004629326,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.18510223964122408,
+        "atom": 0.2115663540407975,
+        "bond": 0.038236703560499685,
+        "adjacency": 0.0251581878770209,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 211,
+      "padded": true,
+      "exclude_self_loops": false,
+      "plan": "bistochastic",
+      "loss": "alt_b",
+      "value_max_abs": 0.5453934932986257,
+      "gradient_max_abs": 4.983330111258198,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 0.4531914459583297,
+        "bond": 0.1174208356046782,
+        "adjacency": 0.20779851737344873,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 211,
+      "padded": true,
+      "exclude_self_loops": false,
+      "plan": "bistochastic",
+      "loss": "alt_a_prime",
+      "value_max_abs": 0.6453732026155747,
+      "gradient_max_abs": 10.99298109430187,
+      "finite": true,
+      "component_differences": {
+        "presence": 1.1102230246251565e-16,
+        "atom": 0.007795767114383123,
+        "bond": 0.03823670356049974,
+        "adjacency": 0.0251581878770209,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 211,
+      "padded": true,
+      "exclude_self_loops": false,
+      "plan": "bistochastic",
+      "loss": "alt_b_prime",
+      "value_max_abs": 0.17942638442859593,
+      "gradient_max_abs": 0.2876809257689801,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.04078842784987258,
+        "atom": 0.07824802335031089,
+        "bond": 0.00463939431728555,
+        "adjacency": 0.00023846044848685466,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 211,
+      "padded": true,
+      "exclude_self_loops": false,
+      "plan": "imperfect",
+      "loss": "alt_a",
+      "value_max_abs": 0.1000292427339815,
+      "gradient_max_abs": 9.389820355656578,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.06276068568919535,
+        "atom": 0.014213572511684758,
+        "bond": 0.09109788402480457,
+        "adjacency": 0.031920553409715224,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 211,
+      "padded": true,
+      "exclude_self_loops": false,
+      "plan": "imperfect",
+      "loss": "alt_b",
+      "value_max_abs": 0.2185237806691971,
+      "gradient_max_abs": 4.1864561696427955,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.13286021792703828,
+        "atom": 0.38521272906457993,
+        "bond": 0.20824324123813853,
+        "adjacency": 0.36742412598834884,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 211,
+      "padded": true,
+      "exclude_self_loops": false,
+      "plan": "imperfect",
+      "loss": "alt_a_prime",
+      "value_max_abs": 0.7251635118379669,
+      "gradient_max_abs": 12.949016737142404,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.01624742293758452,
+        "atom": 0.17551348773275133,
+        "bond": 0.027311021626242604,
+        "adjacency": 0.020044332422069933,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 211,
+      "padded": true,
+      "exclude_self_loops": false,
+      "plan": "imperfect",
+      "loss": "alt_b_prime",
+      "value_max_abs": 0.11016650312564291,
+      "gradient_max_abs": 0.23460437977714022,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.01402234093727861,
+        "atom": 0.052739978161908896,
+        "bond": 0.0029809378608436354,
+        "adjacency": 0.017743175522534127,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 211,
+      "padded": true,
+      "exclude_self_loops": true,
+      "plan": "identity",
+      "loss": "alt_a",
+      "value_max_abs": 0.0,
+      "gradient_max_abs": 16.936588176101317,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 0.0,
+        "bond": 0.0,
+        "adjacency": 5.551115123125783e-17,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 211,
+      "padded": true,
+      "exclude_self_loops": true,
+      "plan": "identity",
+      "loss": "alt_b",
+      "value_max_abs": 0.0,
+      "gradient_max_abs": 33.10312337322715,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 0.0,
+        "bond": 0.0,
+        "adjacency": 5.551115123125783e-17,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 211,
+      "padded": true,
+      "exclude_self_loops": true,
+      "plan": "identity",
+      "loss": "alt_a_prime",
+      "value_max_abs": 0.0,
+      "gradient_max_abs": 16.263583676057163,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 0.0,
+        "bond": 0.0,
+        "adjacency": 5.551115123125783e-17,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 211,
+      "padded": true,
+      "exclude_self_loops": true,
+      "plan": "identity",
+      "loss": "alt_b_prime",
+      "value_max_abs": 0.0,
+      "gradient_max_abs": 4.24519621072341,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 0.0,
+        "bond": 0.0,
+        "adjacency": 5.551115123125783e-17,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 211,
+      "padded": true,
+      "exclude_self_loops": true,
+      "plan": "permutation",
+      "loss": "alt_a",
+      "value_max_abs": 0.14468358484822774,
+      "gradient_max_abs": 22.776116583139466,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 0.0,
+        "bond": 0.07535808758981477,
+        "adjacency": 0.17709571772493604,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 211,
+      "padded": true,
+      "exclude_self_loops": true,
+      "plan": "permutation",
+      "loss": "alt_b",
+      "value_max_abs": 0.0,
+      "gradient_max_abs": 32.89070065004786,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 0.0,
+        "bond": 1.1102230246251565e-16,
+        "adjacency": 5.551115123125783e-17,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 211,
+      "padded": true,
+      "exclude_self_loops": true,
+      "plan": "permutation",
+      "loss": "alt_a_prime",
+      "value_max_abs": 0.14468358484822819,
+      "gradient_max_abs": 22.463229679899868,
+      "finite": true,
+      "component_differences": {
+        "presence": 2.220446049250313e-16,
+        "atom": 2.220446049250313e-16,
+        "bond": 0.07535808758981477,
+        "adjacency": 0.17709571772493593,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 211,
+      "padded": true,
+      "exclude_self_loops": true,
+      "plan": "permutation",
+      "loss": "alt_b_prime",
+      "value_max_abs": 4.440892098500626e-16,
+      "gradient_max_abs": 2.167298017340221,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 2.220446049250313e-16,
+        "bond": 1.1102230246251565e-16,
+        "adjacency": 1.1102230246251565e-16,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 211,
+      "padded": true,
+      "exclude_self_loops": true,
+      "plan": "bistochastic",
+      "loss": "alt_a",
+      "value_max_abs": 0.43292385978487324,
+      "gradient_max_abs": 7.540370784882648,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.18510223964122408,
+        "atom": 0.2115663540407975,
+        "bond": 0.05030114424926141,
+        "adjacency": 0.03491123166293557,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 211,
+      "padded": true,
+      "exclude_self_loops": true,
+      "plan": "bistochastic",
+      "loss": "alt_b",
+      "value_max_abs": 0.5708016462101888,
+      "gradient_max_abs": 0.44297044905359884,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.0,
+        "atom": 0.4531914459583297,
+        "bond": 0.09683963274914809,
+        "adjacency": 0.1798444626014459,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 211,
+      "padded": true,
+      "exclude_self_loops": true,
+      "plan": "bistochastic",
+      "loss": "alt_a_prime",
+      "value_max_abs": 0.6467817963029956,
+      "gradient_max_abs": 7.2831532933514955,
+      "finite": true,
+      "component_differences": {
+        "presence": 1.1102230246251565e-16,
+        "atom": 0.007795767114383123,
+        "bond": 0.05030114424926141,
+        "adjacency": 0.034911231662935555,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 211,
+      "padded": true,
+      "exclude_self_loops": true,
+      "plan": "bistochastic",
+      "loss": "alt_b_prime",
+      "value_max_abs": 0.18274005572012264,
+      "gradient_max_abs": 0.29202517409951406,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.04078842784987258,
+        "atom": 0.07824802335031089,
+        "bond": 0.008426560202486,
+        "adjacency": 0.0007217976549299676,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 211,
+      "padded": true,
+      "exclude_self_loops": true,
+      "plan": "imperfect",
+      "loss": "alt_a",
+      "value_max_abs": 0.1010891762452042,
+      "gradient_max_abs": 6.295645337717102,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.06276068568919535,
+        "atom": 0.014213572511684758,
+        "bond": 0.08649963731499241,
+        "adjacency": 0.03734060165015768,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 211,
+      "padded": true,
+      "exclude_self_loops": true,
+      "plan": "imperfect",
+      "loss": "alt_b",
+      "value_max_abs": 0.25777390811878176,
+      "gradient_max_abs": 0.4580725935287344,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.13286021792703828,
+        "atom": 0.38521272906457993,
+        "bond": 0.17296310086100175,
+        "adjacency": 0.3135487631757252,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 211,
+      "padded": true,
+      "exclude_self_loops": true,
+      "plan": "imperfect",
+      "loss": "alt_a_prime",
+      "value_max_abs": 0.7328174677348045,
+      "gradient_max_abs": 8.58087102496028,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.01624742293758452,
+        "atom": 0.17551348773275133,
+        "bond": 0.0020393070004473546,
+        "adjacency": 1.7895648697391353e-05,
+        "marginal": 0.0
+      }
+    },
+    {
+      "seed": 211,
+      "padded": true,
+      "exclude_self_loops": true,
+      "plan": "imperfect",
+      "loss": "alt_b_prime",
+      "value_max_abs": 0.10817568814291256,
+      "gradient_max_abs": 0.2400381897086299,
+      "finite": true,
+      "component_differences": {
+        "presence": 0.01402234093727861,
+        "atom": 0.052739978161908896,
+        "bond": 0.011509897186951057,
+        "adjacency": 0.021258380294062573,
+        "marginal": 0.0
+      }
+    }
+  ]
+}

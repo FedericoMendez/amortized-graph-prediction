@@ -1,0 +1,15 @@
+method,tau,epsilon,inner_iterations,outer_iterations,marginal_kl,included_in_plot,seconds_per_sample,edit_distance,source_page,source_table
+Mirror,0.1,,1,10,not_applicable,true,,,18,6
+Mirror,0.1,,1,100,not_applicable,true,,,18,6
+Mirror,0.1,,10,10,not_applicable,true,,,18,6
+Mirror,0.1,,10,100,not_applicable,true,,,18,6
+Mirror,0.1,,100,10,not_applicable,true,,,18,6
+Mirror,0.1,,100,100,not_applicable,false,,,18,6
+Matcher,,0.00001,5,,false,true,,,18,6
+Matcher,,0.00001,10,,false,true,,,18,6
+Matcher,,0.00001,50,,false,true,,,18,6
+Matcher,,0.00001,100,,false,true,,,18,6
+Matcher + KL,,0.00001,5,,true,true,,,18,6
+Matcher + KL,,0.00001,10,,true,true,,,18,6
+Matcher + KL,,0.00001,50,,true,true,,,18,6
+Matcher + KL,,0.00001,100,,true,true,,,18,6
