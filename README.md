@@ -7,8 +7,7 @@ solver provides an alternative alignment method.
 
 **Paper:** *Graph Matching Relaxations and Amortization for Supervised Graph
 Prediction* — Federico Méndez, Paul Krzakala, Gabriel Melo, Charlotte Laclau,
-Rémi Flamary, and Florence d'Alché-Buc. This repository accompanies a research
-draft.
+Rémi Flamary, and Florence d'Alché-Buc.
 
 ![Architecture of amortized supervised graph prediction](figures/architecture.png)
 
