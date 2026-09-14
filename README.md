@@ -127,3 +127,21 @@ This work builds on [Any2Graph](https://github.com/KrzakalaPaul/Any2Graph)
 graph matching, and reconstruction objectives. The mass-spectrometry task uses
 [MassSpecGym](https://github.com/pluskal-lab/MassSpecGym)
 ([paper](https://arxiv.org/abs/2410.23326)).
+
+```bibtex
+@article{krzakala2024any2graph,
+  title={Any2graph: Deep end-to-end supervised graph prediction with an optimal transport loss},
+  author={Krzakala, Paul and Yang, Junjie and Flamary, R{\'e}mi and d'Alch{\'e}-Buc, Florence and Laclau, Charlotte and Labeau, Matthieu},
+  journal={Advances in Neural Information Processing Systems},
+  volume={37},
+  pages={101552--101588},
+  year={2024}
+}
+@article{krzakala2025quest,
+  title={The quest for the GRAph Level autoEncoder (GRALE)},
+  author={Krzakala, Paul and Melo, Gabriel and Laclau, Charlotte and d'Alch{\'e}-Buc, Florence and Flamary, R{\'e}mi},
+  journal={arXiv preprint arXiv:2505.22109},
+  year={2025}
+}
+
+```
