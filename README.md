@@ -113,10 +113,15 @@ for component interfaces.
 
 ## Citation and reuse
 
-Use the paper title and authors above when referring to this work; an archival
-citation will be added when available. Any2Graph and GRALE inform this
-implementation. A project license and complete third-party attribution are still
-pending; this repository does not yet claim an open-source license.
+```bibtex
+@article{mendez2026graph,
+  title={Graph Matching Relaxations and Amortization for Supervised Graph Prediction},
+  author={M{\'e}ndez, Federico and Krzakala, Paul and Melo, Gabriel and Laclau, Charlotte and Flamary, R{\'e}mi and d'Alch{\'e}-Buc, Florence},
+  journal={arXiv preprint arXiv:2609.15437},
+  year={2026}
+}
+
+```
 
 ## Acknowledgments
 
