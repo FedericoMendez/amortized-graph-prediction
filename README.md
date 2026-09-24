@@ -5,8 +5,8 @@ spectra. The implementation, **Any2GraphV2**, combines a modality-specific encod
 a Transformer graph decoder, and a learned Sinkhorn matcher. A detached mirror
 solver provides an alternative alignment method.
 
-**Paper:** *Graph Matching Relaxations and Amortization for Supervised Graph
-Prediction* — Federico Méndez, Paul Krzakala, Gabriel Melo, Charlotte Laclau,
+**Paper:** [*Graph Matching Relaxations and Amortization for Supervised Graph
+Prediction* ](https://arxiv.org/pdf/2609.15437)— Federico Méndez, Paul Krzakala, Gabriel Melo, Charlotte Laclau,
 Rémi Flamary, and Florence d'Alché-Buc.
 
 ![Architecture of amortized supervised graph prediction](figures/architecture.png)
